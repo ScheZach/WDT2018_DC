@@ -1,0 +1,38 @@
+/*Elena, this @media section is to make our website responsive and fit on phones. Just FYI and if you want
+more informatation about this go to learn css on w3*/
+@media screen and (max-width: 40em) {
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: auto auto;
+  grid-template-areas: "sidebar main main"
+                       "sidebar base base";
+  grid-gap: .75em;
+}
+#sidebar {
+  grid-area: sidebar;
+}
+#main {
+  grid-area: main;
+}
+#base {
+  grid-area: base;
+}
+
+body {
+  background-color: #0000FF;
+}
+.w3-container {
+  padding: 1.5em;
+}
+.gridStyle {
+  border: .5em ridge #000000;
+  padding: .5em;
+}
+#header {
+  margin-left: .7em;
+  margin-bottom: 0em;
+}
