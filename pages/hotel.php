@@ -14,15 +14,29 @@
   <link rel="stylesheet" type="text/css" href="../css/main.css">
 </head>
 <body>
-  <div class="w3-bar w3-indigo">
-    <a href="../index.php" class="w3-bar-item w3-button">Home</a>
-    <a href="#" class="w3-bar-item w3-button">Link 1</a>
-    <a href="#" class="w3-bar-item w3-button">Link 2</a>
-    <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <div class="w3-bar w3-red">
+    <h1 id="header">Welcome to the 2020 NLC at Washington D.C. Informatation Page</h1>
+    <div class="w3-bar w3-indigo">
+      <a href="../index.php" class="w3-bar-item w3-button w3-hover-blue">Home</a>
+      <a href="transportation.php" class="w3-bar-item w3-button w3-hover-blue">Transportation</a>
+      <a href="hotel.php" class="w3-bar-item w3-button w3-hover-blue">Hotel</a>
+      <a href="activities.php" class="w3-bar-item w3-button w3-hover-blue">Activities</a>
+      <a href="QandA.php" class="w3-bar-item w3-button w3-hover-blue">Q&A</a>
+    </div>
   </div>
   <div class="w3-container">
-  <h1>Hello world</h1>
-  <?php echo "php works";?>
+    <div class="grid-container">
+      <div id="sidebar" class="gridStyle">
+        <?php echo "php works";?>
+
+      </div>
+      <div id="main" class="gridStyle">
+
+      </div>
+      <div id="base" class="gridStyle">
+
+      </div>
+    </div>
 </div>
 </body>
 </html>

@@ -14,13 +14,15 @@
   <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-  <div class="w3-bar w3-indigo">
+  <div class="w3-bar w3-red">
     <h1 id="header">Welcome to the 2020 NLC at Washington D.C. Informatation Page</h1>
-    <hr>
-    <a href="index.html" class="w3-bar-item w3-button">Home</a>
-    <a href="pages/transportation.php" class="w3-bar-item w3-button">Transportation</a>
-    <a href="pages/hotel.php" class="w3-bar-item w3-button">Hotel</a>
-    <a href="pages/activities.php" class="w3-bar-item w3-button">Activities</a>
+    <div class="w3-bar w3-indigo">
+      <a href="index.html" class="w3-bar-item w3-button w3-hover-blue">Home</a>
+      <a href="pages/transportation.php" class="w3-bar-item w3-button w3-hover-blue">Transportation</a>
+      <a href="pages/hotel.php" class="w3-bar-item w3-button w3-hover-blue">Hotel</a>
+      <a href="pages/activities.php" class="w3-bar-item w3-button w3-hover-blue">Activities</a>
+      <a href="pages/QandA.php" class="w3-bar-item w3-button w3-hover-blue">Q&A</a>
+    </div>
   </div>
   <div class="w3-container">
     <div class="grid-container">
