@@ -12,6 +12,13 @@
   <link rel="stylesheet" type="text/css" href="../css/w3.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" type="text/css" href="../css/main.css">
+
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+  </style>
 </head>
 <body>
   <div class="w3-bar w3-red">
@@ -31,7 +38,17 @@
 
       </div>
       <div id="main" class="gridStyle">
-
+        <?php
+          session_start();
+          if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
+            echo "<h2>Hello ". $_SESSION["username"] . "</h2>";
+            include '../php/singleUserTable.php';
+            echo "<hr>";
+          }
+        ?>
+        <?php
+        include '../php/Maintable.php';
+        ?>
       </div>
       <div id="base" class="gridStyle">
 

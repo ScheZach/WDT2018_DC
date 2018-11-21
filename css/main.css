@@ -3,7 +3,7 @@ more informatation about this go to learn css on w3*/
 @media screen and (max-width: 40em) {
 
 }
-
+/*This is how we created the seperate sections of the site. All of these sections are created from <div>*/
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
