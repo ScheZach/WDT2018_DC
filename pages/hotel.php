@@ -22,6 +22,14 @@
       <a href="hotel.php" class="w3-bar-item w3-button w3-hover-blue">Hotel</a>
       <a href="activities.php" class="w3-bar-item w3-button w3-hover-blue">Activities</a>
       <a href="QandA.php" class="w3-bar-item w3-button w3-hover-blue">Q&A</a>
+      <div class="w3-dropdown-hover w3-right">
+        <button class="w3-button">User Login ^</button>
+        <div class="w3-dropdown-content w3-bar-block w3-border">
+          <a href="../php/login.php" class="w3-bar-item w3-button">Log In</a>
+          <a href="../php/createUser.php" class="w3-bar-item w3-button">Create User</a>
+          <a href="../php/logout.php" class="w3-bar-item w3-button">Log Out</a>
+        </div>
+</div>
     </div>
   </div>
   <div class="w3-container">

@@ -29,6 +29,14 @@
       <a href="hotel.php" class="w3-bar-item w3-button w3-hover-blue">Hotel</a>
       <a href="activities.php" class="w3-bar-item w3-button w3-hover-blue">Activities</a>
       <a href="QandA.php" class="w3-bar-item w3-button w3-hover-blue">Q&A</a>
+      <div class="w3-dropdown-hover w3-right">
+        <button class="w3-button">User Login ^</button>
+        <div class="w3-dropdown-content w3-bar-block w3-border">
+          <a href="../php/login.php" class="w3-bar-item w3-button">Log In</a>
+          <a href="../php/createUser.php" class="w3-bar-item w3-button">Create User</a>
+          <a href="../php/logout.php" class="w3-bar-item w3-button">Log Out</a>
+        </div>
+</div>
     </div>
   </div>
   <div class="w3-container">
@@ -41,13 +49,36 @@
         <?php
           session_start();
           if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-            echo "<h2>Hello ". $_SESSION["username"] . "</h2>";
+            echo "<h2>". $_SESSION["username"] . ", Here are your answered questions.</h2>";
             include '../php/singleUserTable.php';
+            echo "<h2>Here are all of your questions.</h2>";
+            include '../php/userQuestion.php';
+            echo "<hr>";
+            echo "<h2>Have a question? <a href='../php/addQuestion.php'>Click here</a> to add one.</h2>";
+            echo "<h2>Have an answer? <a href='../php/addAnswer.php'>Click here</a> to add one.</h2>";
             echo "<hr>";
           }
         ?>
+        <h2>All questions with answers</h2>
         <?php
         include '../php/Maintable.php';
+        echo "<br><h2>All questions</h2>";
+
+        $servername = "localhost";
+        $username = "root";
+        $password = "toor";
+        $dbname = "WDDC2018";
+
+        // Create connection
+        $conn = new mysqli($servername, $username, $password, $dbname);
+        // Check connection
+        if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+        }
+
+        include '../php/QuestionTable.php';
+
+        $conn->close();
         ?>
       </div>
       <div id="base" class="gridStyle">

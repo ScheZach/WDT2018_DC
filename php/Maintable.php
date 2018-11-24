@@ -17,12 +17,12 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     // output data of each row
-     echo "<table><tr><th><b>Question Number</b></th><th><b>Name</b></th><th><b>Question</b></th><th><b>Date of Submition</b></th>";
+     echo "<table align='center'><tr><th><b>Question Number</b></th><th><b>Name</b></th><th><b>Question</b></th><th><b>Date of Submition</b></th>";
     echo  "<th><b>Answers</b></th></tr>";
     while($row = $result->fetch_assoc()) {
-        echo "<tr><th>". $row["questionId"]. "</th><th>". $row["username"]. "</th><th>" . $row["question"] . "</th><th>". $row["submitDate"] ."</th><th>";
+        echo "<tr><td>". $row["questionId"]. "</td><td>". $row["username"]. "</td><td>" . $row["question"] . "</td><td>". $row["submitDate"] ."</td><td>";
         echo "". $row["answer"] . " | Submited on " . $row["answerDate"];
-        echo "</th></tr>";
+        echo "</td></tr>";
     }
      echo "</table>";
      echo "<p id='answerSet'></p>";
