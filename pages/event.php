@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Transportation: Washington DC Nationals Guide</title>
+  <title>Event: Washington DC Nationals Guide</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -40,20 +40,17 @@
 
       </div>
       <div id="main" class="gridStyle">
-        <div id="Uber">
-          <h2 id="UberHead">Uber/Lyft</h2>
+        <div id="location">
+          <h2 id="locationHead">The 2020 National Leadership Conference is held at the (Convention center)</h2>
         </div>
-        <div id="taxi">
-          <h2 id="taxiHead">Washington D.C. has taxi services</h2>
+        <div id="convention">
+          <h2 id="conventionHead">(Convention center) has these features</h2>
         </div>
-        <div id="metro">
-          <h2 id="MetroHead">Washington D.C. offers the use of their public metro</h2>
+        <div id="event">
+          <h2 id="eventHead">Here is the general list of events</h2>
         </div>
-        <div id="bikes">
-          <h2 id="bikesHead">Services that provide dockless bikes, rickshaws, and standard bikes</h2>
-        </div>
-        <div id="walking">
-          <h2 id="walkingHead">Washington D.C. has a variety of sidewalks and walking paths you can use</h2>
+        <div id="dressCode">
+          <h2 id="dressCodeHead">Here is the dress code</h2>
         </div>
       </div>
       <div id="base" class="gridStyle">

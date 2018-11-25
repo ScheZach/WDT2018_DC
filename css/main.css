@@ -37,7 +37,20 @@ body {
   margin-bottom: 0em;
 }
 table, th, td {
-  border: 1px solid black;
+  border: 3px solid black;
   border-collapse: collapse;
   text-align: center;
+}
+th {
+  padding: .25em;
+  color: #FFFFFF;
+  background-color: #FF0000;
+}
+td {
+  padding: .5em;
+  color: #FFFFFF;
+  background-color: #4700b3;
+}
+td:hover {
+  background-color: #5c00e6;
 }

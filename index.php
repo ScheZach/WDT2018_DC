@@ -18,6 +18,7 @@
     <h1 id="header">Welcome to the 2020 NLC at Washington D.C. Informatation Page</h1>
     <div class="w3-bar w3-indigo">
       <a href="index.html" class="w3-bar-item w3-button w3-hover-blue">Home</a>
+      <a href="pages/event.php" class="w3-bar-item w3-button w3-hover-blue">Event</a>
       <a href="pages/transportation.php" class="w3-bar-item w3-button w3-hover-blue">Transportation</a>
       <a href="pages/hotel.php" class="w3-bar-item w3-button w3-hover-blue">Hotel</a>
       <a href="pages/activities.php" class="w3-bar-item w3-button w3-hover-blue">Activities</a>

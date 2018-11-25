@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Washington DC Nationals Guide: Transportation</title>
+  <title>Activities: Washington DC Nationals Guide</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -18,6 +18,7 @@
     <h1 id="header">Welcome to the 2020 NLC at Washington D.C. Informatation Page</h1>
     <div class="w3-bar w3-indigo">
       <a href="../index.php" class="w3-bar-item w3-button w3-hover-blue">Home</a>
+      <a href="event.php" class="w3-bar-item w3-button w3-hover-blue">Event</a>
       <a href="transportation.php" class="w3-bar-item w3-button w3-hover-blue">Transportation</a>
       <a href="hotel.php" class="w3-bar-item w3-button w3-hover-blue">Hotel</a>
       <a href="activities.php" class="w3-bar-item w3-button w3-hover-blue">Activities</a>
