@@ -15,16 +15,17 @@
 </head>
 <body>
   <div class="w3-bar w3-red">
-    <h1 id="header">Welcome to the 2020 NLC at Washington D.C. Informatation Page</h1>
+    <h1 id="header">Welcome to the 2020 NLC at Washington D.C. Activities Page</h1>
     <div class="w3-bar w3-indigo">
       <a href="../index.php" class="w3-bar-item w3-button w3-hover-blue">Home</a>
-      <a href="event.php" class="w3-bar-item w3-button w3-hover-blue">Event</a>
+      <a href="event.php" class="w3-bar-item w3-button w3-hover-blue">NLC</a>
       <a href="transportation.php" class="w3-bar-item w3-button w3-hover-blue">Transportation</a>
       <a href="hotel.php" class="w3-bar-item w3-button w3-hover-blue">Hotel</a>
+      <a href="food.php" class="w3-bar-item w3-button w3-hover-blue">Food</a>
       <a href="activities.php" class="w3-bar-item w3-button w3-hover-blue">Activities</a>
       <a href="QandA.php" class="w3-bar-item w3-button w3-hover-blue">Q&A</a>
       <div class="w3-dropdown-hover w3-right">
-        <button class="w3-button">User Login ^</button>
+        <button class="w3-button">User Login &#9660;</button>
         <div class="w3-dropdown-content w3-bar-block w3-border">
           <a href="../php/login.php" class="w3-bar-item w3-button">Log In</a>
           <a href="../php/createUser.php" class="w3-bar-item w3-button">Create User</a>
@@ -40,6 +41,10 @@
 
       </div>
       <div id="main" class="gridStyle">
+
+        <iframe width="650" height="450" frameborder="1" style="border: .25em solid #000000"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBmYRVD-e2FKiTxX_zGuKwhLALhT4xfthU&q=1600+Pennsylvania+Ave+NW,Washington,DC" allowfullscreen>
+        </iframe>
 
       </div>
       <div id="base" class="gridStyle">

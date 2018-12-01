@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Transportation: Washington DC Nationals Guide</title>
+  <title>Hotel: Washington DC Nationals Guide</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -15,7 +15,7 @@
 </head>
 <body>
   <div class="w3-bar w3-red">
-    <h1 id="header">Welcome to the 2020 NLC at Washington D.C. Transportation Page</h1>
+    <h1 id="header">Welcome to the 2020 NLC at Washington D.C. Food Page</h1>
     <div class="w3-bar w3-indigo">
       <a href="../index.php" class="w3-bar-item w3-button w3-hover-blue">Home</a>
       <a href="event.php" class="w3-bar-item w3-button w3-hover-blue">NLC</a>
@@ -41,27 +41,10 @@
 
       </div>
       <div id="main" class="gridStyle">
-        <div id="city">
-          <h2>Map of the city</h2>
-          <iframe width="650" height="450" frameborder="1" style="border: .25em solid #000000"
-          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBmYRVD-e2FKiTxX_zGuKwhLALhT4xfthU&q=Washington,DC" allowfullscreen>
-          </iframe>
-        </div>
-        <div id="Uber">
-          <h2 id="UberHead">Uber/Lyft</h2>
-        </div>
-        <div id="taxi">
-          <h2 id="taxiHead">Washington D.C. has taxi services</h2>
-        </div>
-        <div id="metro">
-          <h2 id="MetroHead">Washington D.C. offers the use of their public metro</h2>
-        </div>
-        <div id="bikes">
-          <h2 id="bikesHead">Services that provide dockless bikes, rickshaws, and standard bikes</h2>
-        </div>
-        <div id="walking">
-          <h2 id="walkingHead">Washington D.C. has a variety of sidewalks and walking paths you can use</h2>
-        </div>
+        <iframe width="650" height="450" frameborder="1" style="border: .25em solid #000000"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBmYRVD-e2FKiTxX_zGuKwhLALhT4xfthU&q=1600+Pennsylvania+Ave+NW,Washington,DC" allowfullscreen>
+        </iframe>
+
       </div>
       <div id="base" class="gridStyle">
 
