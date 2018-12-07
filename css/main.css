@@ -14,12 +14,30 @@ more informatation about this go to learn css on w3*/
 }
 #sidebar {
   grid-area: sidebar;
+  background-color: #9cc4e4;
+  color: #444444;
 }
 #main {
   grid-area: main;
+  background-color: #e9f2f9;
+  color: #444444;
 }
 #base {
   grid-area: base;
+  background-color: #e9f2f9;
+  color: #444444;
+}
+
+.userFeatures {
+  margin-right: .5em;
+  margin-left: .5em;
+  padding: .5em;
+  background-color: #3a89c9;
+  color: #FFFFFF;
+}
+
+.LinkColor {
+  background-color: #3a89c9;
 }
 
 body {
