@@ -1,0 +1,16 @@
+#myModal {
+  color: white;
+  position: fixed;
+  top: 45%;
+  left: 30%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+#myButton {
+  position: fixed;
+  top: 55%;
+  left: 54%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
