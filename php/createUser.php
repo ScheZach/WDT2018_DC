@@ -64,7 +64,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
          $_SESSION["id"] = $userId;
          $_SESSION["username"] = $username;
          echo "logged in";
-         header("location: ../index.php");
+         header("location: ../home.php");
        } else {
          echo "Something went wrong. Please try again later.";
 

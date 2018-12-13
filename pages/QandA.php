@@ -19,6 +19,9 @@
     h2 {
       text-align: center;
     }
+    h3 {
+      text-align: center;
+    }
   </style>
 </head>
 <body>

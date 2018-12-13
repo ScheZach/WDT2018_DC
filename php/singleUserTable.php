@@ -27,7 +27,7 @@ if ($result->num_rows > 0) {
      echo "</table>";
      echo "<p id='answerSet'></p>";
 } else {
-    echo "0 results";
+    echo "<h3><i>You don't have any answered questions</i></h3>";
 }
 
 $conn->close();
