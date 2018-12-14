@@ -26,7 +26,6 @@
     <a href="hotel.php" class="w3-bar-item w3-button w3-hover-blue">Hotel</a>
     <a href="food.php" class="w3-bar-item w3-button w3-hover-blue">Food</a>
     <a href="activities.php" class="w3-bar-item w3-button w3-hover-blue">Activities</a>
-    <a href="contactus.php" class="w3-bar-item w3-button w3-hover-blue">Contact Us</a>
     <a href="QandA.php" class="w3-bar-item w3-button w3-hover-blue">Q&A</a>
     <div class="w3-dropdown-hover w3-right">
       <button class="w3-button">User Login &#9660;</button>
