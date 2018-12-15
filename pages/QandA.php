@@ -22,6 +22,12 @@
     h3 {
       text-align: center;
     }
+    #userAdd {
+      margin: .5em;
+      border: .5em ridge #1B325F;
+      color: #DDDDDD;
+      background-color: #3A89C9;
+    }
   </style>
 </head>
 <body>
@@ -59,10 +65,10 @@
             include '../php/singleUserTable.php';
             echo "<h2>Here are all of your questions.</h2>";
             include '../php/userQuestion.php';
-            echo "<hr>";
+            echo "<hr><div id='userAdd'>";
             echo "<h2>Have a question? <a href='../php/addQuestion.php'>Click here</a> to add one.</h2>";
             echo "<h2>Have an answer? <a href='../php/addAnswer.php'>Click here</a> to add one.</h2>";
-            echo "<hr>";
+            echo "</div><hr>";
           }
         ?>
         <h2>All questions with answers</h2>

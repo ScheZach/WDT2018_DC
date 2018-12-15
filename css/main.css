@@ -67,8 +67,20 @@ th {
 td {
   padding: .5em;
   color: #FFFFFF;
-  background-color: #4700b3;
+  background-color: #0059b3;
 }
 td:hover {
-  background-color: #5c00e6;
+  background-color: #0073e6;
+}
+.sidebarHead {
+  font-size: 2.5em;
+  color: #000000;
+  text-align: center;
+}
+.sidebarSite {
+  font-size: 1.5em;
+  color: #000000;
+}
+.link:hover {
+  color: #666666;
 }
