@@ -1,0 +1,99 @@
+/*Elena, this @media section is to make our website responsive and fit on phones. Just FYI and if you want
+more informatation about this go to learn css on w3*/
+@media screen and (max-width: 40em) {}
+
+/*This is how we created the seperate sections of the site. All of these sections are created from <div>*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: auto auto;
+  grid-template-areas: "sidebar main main"
+    "sidebar base base";
+  grid-gap: .75em;
+}
+
+#sidebar {
+  grid-area: sidebar;
+  background-color: #9cc4e4;
+  color: #444444;
+/*  position: fixed; (just an idea,probably needes more formatting)*/
+}
+
+#main {
+  grid-area: main;
+  background-color: #e9f2f9;
+  color: #444444;
+  margin-left: 10px;
+}
+
+#base {
+  grid-area: base;
+  background-color: #e9f2f9;
+  color: #444444;
+}
+
+.userFeatures {
+  margin-right: .5em;
+  margin-left: .5em;
+  padding: .5em;
+  background-color: #3a89c9;
+  color: #FFFFFF;
+}
+
+.LinkColor {
+  background-color: #3a89c9;
+}
+
+body {
+  background-color: #CCCCCC;
+}
+
+.w3-container {
+  padding: 1.5em;
+}
+
+.gridStyle {
+  border: .5em ridge #000000;
+  padding: .5em;
+}
+
+#header {
+  margin-left: .7em;
+  margin-bottom: 0em;
+}
+
+table, th, td {
+  border: 3px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  padding: .25em;
+  color: #FFFFFF;
+  background-color: #FF0000;
+}
+
+td {
+  padding: .5em;
+  color: #FFFFFF;
+  background-color: #4700b3;
+}
+
+td:hover {
+  background-color: #5c00e6;
+}
+
+.sidebarHead {
+  font-size: 2.5em;
+  color: #000000;
+  text-align: center;
+}
+.sidebarSite {
+  font-size: 1.5em;
+  color: #000000;
+}
+.link:hover {
+  color: #666666;
+}
