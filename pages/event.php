@@ -13,11 +13,12 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="../js/pages.js" charset="utf-8"></script>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="../css/main.css">
   <style>
     #locationText {
-
+      text-align: center;
     }
     #conMap {
       float: left;
@@ -29,6 +30,9 @@
     }
     .infoText {
       margin: .75em;
+    }
+    h3 {
+      font-weight: bold;
     }
   </style>
 </head>
@@ -56,26 +60,67 @@
   <div class="w3-container">
     <div class="grid-container">
       <div id="sidebar" class="gridStyle">
-        <?php echo "php works";?>
-
+        <h3><b>Table of Contents:</b></h3>
+        <p>Convetion Center Location</p>
+        <p>Convention Center Features</p>
+        <p>Dress Code</p>
+        <p>General List of Events</p>
       </div>
+
       <div id="main" class="gridStyle">
         <div id="location">
           <iframe id="conMap" width="650" height="450" frameborder="1" style="border: .25em solid #000000"
           src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBmYRVD-e2FKiTxX_zGuKwhLALhT4xfthU&q=Gaylord+National+Resort,Fort+Washington,MD+20745" allowfullscreen>
           </iframe>
           <br>
-          <h2 id="locationText">The 2020 National Leadership Conference is held at the Gaylord National Resort & Convention Center</h2>
+          <h2 id="locationText">The 2020 National Leadership Conference is held at the <b>Gaylord National Resort & Convention Center</b></h2>
           <br id="floatClear">
         </div>
+
+        <h2 id="conventionHead">Gaylord National Resort & Convention Center Features &#9660;</h2>
         <div class="infoText" id="convention">
-          <h2 id="conventionHead">Gaylord National Resort & Convention Center has these features &#9660;</h2>
+          <p>Info</p>
         </div>
-        <div class="infoText" id="event">
-          <h2 id="eventHead">Here is the general list of events &#9660;</h2>
-        </div>
+
+        <h2 id="dressCodeHead">Dress code &#9660;</h2>
         <div class="infoText" id="dressCode">
-          <h2 id="dressCodeHead">Here is the dress code &#9660;</h2>
+          <h3>Professional Dress Code:</h3>
+          <p>Women Options:</p>
+          <ul>
+            <li>Pant or Suit Skirt</li>
+            <li>Dress Skirt or Dress Slacks</li>
+            <li>Dress</li>
+            <li>BPA Blazer, dress skirt/slacks, blouse/sweater</li>
+            <li>Required - Dress shoes with heel</li>
+          </ul>
+          <p>Men Options:</p>
+          <ul>
+            <li>Dress slacks, dress shirt, and tie</li>
+            <li>Suit, dress shirt, and tie</li>
+            <li>Sports coat, dress slacks, dress shirt, tie</li>
+            <li>BPA Blazer, dress slacks, dress shirt, tie</li>
+          </ul>
+          <h3>Casual Dress Code:</h3>
+          <p>Women and Men Options:</p>
+          <ul>
+            <li>Jeans, pants, shorts</li>
+            <li>Shirt, t-shirt</li>
+            <li>Footwear required</li>
+          </ul>
+          <h3>Unaccetable Clothing</h3>
+          <ul>
+            <li>Strapless, spaghetti straps, tube tops, halter tops, midriff tops</li>
+            <li>Spandex, lycra, transparent clothing</li>
+            <li>Cut-offs or ragged cltohing</li>
+            <li>Innapropriate words and/or pictures</li>
+            <li>During professional events, denim skirts</li>
+          </ul><br>
+          <a href="http://www.bpa.org/nlc/dresscode" target="_blank">Official Dress Code (bpa.org)</a>
+        </div>
+
+        <h2 id="eventHead">General list of events &#9660;</h2>
+        <div class="infoText" id="event">
+          <p>Info</p>
         </div>
       </div>
       <div id="base" class="gridStyle">

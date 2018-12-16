@@ -1,16 +1,22 @@
 #myModal {
   color: white;
   position: fixed;
-  top: 45%;
-  left: 30%;
-  margin-top: -50px;
-  margin-left: -100px;
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  top: 33%;
 }
 
 #myButton {
   position: fixed;
-  top: 55%;
+  top: 63%;
   left: 54%;
   margin-top: -50px;
   margin-left: -100px;
+}
+
+.change {
+  font-family: 'Changa One', cursive;
 }

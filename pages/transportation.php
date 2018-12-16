@@ -116,7 +116,6 @@
       <div id="main" class="gridStyle">
         <div class="infoGrid">
         <div id="city">
-          <h2>Map of the city</h2>
           <iframe width="650" height="650" frameborder="1" style="border: .25em solid #000000"
           src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBmYRVD-e2FKiTxX_zGuKwhLALhT4xfthU&q=Washington,DC" allowfullscreen>
           </iframe>
@@ -169,6 +168,7 @@
              For more information, please go to the Washington Metropolitan Area Transit Authority calulator site:
            <a href="https://www.wmata.com/schedules/trip-planner/" target="_blank">WMATA</a></h4>
           <h4 class="MetroInfo">The closest stop to the Gaylord National Resort & Convention Center is the Huntington stop (40 min. walk, 10 min drive)</h4>
+          <img src="../images/metroMap.jpg" class="MetroInfo"></img>
         </div>
         </div>
       </div>
