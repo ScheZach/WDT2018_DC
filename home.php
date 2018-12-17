@@ -55,7 +55,6 @@
           <li class="link"><a href="http://www.bpa.org/" target="_blank">BPA.org</a></li>
           <li class="link"><a href="https://www.nationalharbor.com/" target="_blank">National Harbor</a></li>
           <li class="link"><a href="https://ride.guru/" target="_blank">RideGuru</a></li>
-          <li class="link"><a href="https://www.marriott.com/hotels/travel/wasgn-gaylord-national-resort-and-convention-center/" target="_blank">Gaylord</a></li>
         </ul>
       </div>
       <div id="main" class="gridStyle">
