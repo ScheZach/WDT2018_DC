@@ -21,6 +21,10 @@
     #demo {
       background-color: #C7D1D7;
     }
+    .link {
+      text-align: left;
+      font-size: 1.5em;
+    }
   </style>
 </head>
 <body>
@@ -47,10 +51,12 @@
   <div class="w3-container">
     <div class="grid-container">
       <div id="sidebar" class="gridStyle">
-        <?php
-          echo "php works";
-          echo "<br>background color is just a test";
-        ?>
+        <ul>
+          <li class="link"><a href="http://www.bpa.org/" target="_blank">BPA.org</a></li>
+          <li class="link"><a href="https://www.nationalharbor.com/" target="_blank">National Harbor</a></li>
+          <li class="link"><a href="https://ride.guru/" target="_blank">RideGuru</a></li>
+          <li class="link"><a href="https://www.marriott.com/hotels/travel/wasgn-gaylord-national-resort-and-convention-center/" target="_blank">Gaylord</a></li>
+        </ul>
       </div>
       <div id="main" class="gridStyle">
         <div id="demo" class="carousel slide" data-ride="carousel">
@@ -61,25 +67,13 @@
   </ul>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/uhh.jpeg" alt="Los Angeles">
-      <div class="carousel-caption">
-        <h2>Welcome to the 2020 National Leadership Conference!</h2>
-        <h3>Washington D.C.</h3>
-      </div>
+      <img src="images/homepage/editbpalogo.png" alt="Los Angeles">
     </div>
     <div class="carousel-item">
-      <img src="images/placeholder2.jpg" alt="Chicago">
-      <div class="carousel-caption">
-        <h3>Chicago</h3>
-        <p>Thank you, Chicago!</p>
-      </div>
+      <img src="images/homepage/togetherwecreatelarge.jpg" alt="Chicago">
     </div>
     <div class="carousel-item">
-      <img src="images/placeholder3.jpg" alt="New York">
-      <div class="carousel-caption">
-        <h3>New York</h3>
-        <p>We love the Big Apple!</p>
-      </div>
+      <img src="images/homepage/2018conference.jpg" alt="New York">
     </div>
   </div>
   <a class="carousel-control-prev" href="#demo" data-slide="prev">
@@ -102,7 +96,14 @@
         <!-- This only will occur when users login to the site -->
       </div>
       <div id="base" class="gridStyle">
-        <p>This is the other informatation box</p>
+        <div>
+            <p>
+              Connect With National BPA:
+              <a class="w3-button userFeatures" href="https://www.facebook.com/businessprofessionalsofamerica" target="_blank">Facebook</a>
+              <a class="w3-button userFeatures" href="https://www.instagram.com/bpanational/" target="_blank">Instagram</a>
+              <a class="w3-button userFeatures" href="https://twitter.com/National_BPA" target="_blank">Twitter</a>
+            </p>
+        </div>
       </div>
     </div>
   </div>

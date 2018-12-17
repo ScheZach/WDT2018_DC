@@ -55,6 +55,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="../css/w3.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="../css/main.css">
   <style>
     #login {
@@ -68,8 +72,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
   <div class="w3-bar w3-red">
     <h1 id="header">Welcome to the 2020 NLC at Washington D.C. Informatation Page</h1>
-    <div class="w3-bar w3-indigo">
-      <a href="../index.php" class="w3-bar-item w3-button w3-hover-blue">Home</a>
+    <div class="w3-bar">
+      <a href="../home.php" class="w3-bar-item w3-button w3-hover-blue">Home</a>
       <a href="../pages/QandA.php" class="w3-bar-item w3-button w3-hover-blue">Q&A</a>
     </div>
   </div>

@@ -15,6 +15,52 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="../css/main.css">
+  <style>
+  #floatClear {
+    clear: left;
+  }
+  #hotelMap {
+    float: left;
+    margin: .5em;
+    margin-bottom: .75em;
+  }
+  #locationText {
+    text-align: center;
+  }
+  .infoText {
+    border: .5em solid #9CC4E4;
+    border: collapse;
+    padding: .5em;
+    background-color: #2978B8;
+    color: #DDDDDD;
+  }
+  ul {
+    font-size: 1.5em;
+  }
+  p {
+    font-size: 1.5em;
+  }
+  .HotelHead {
+    font-size: 1.75em;
+  }
+  .HotelHead:hover {
+    color: #777777;
+  }
+  </style>
+  <script>
+  $(document).ready(function(){
+    $("#FeaturesInfo").hide();
+    $("#HarborInfo").hide();
+
+    $("#FeaturesHead").click(function() {
+      $("#FeaturesInfo").slideToggle();
+    });
+    $("#HarborHead").click(function() {
+      $("#HarborInfo").slideToggle();
+    });
+
+  });
+  </script>
 </head>
 <body>
   <div class="w3-bar w3-red">
@@ -40,16 +86,57 @@
   <div class="w3-container">
     <div class="grid-container">
       <div id="sidebar" class="gridStyle">
-        <?php echo "php works";?>
-
+            <h2 class="sidebarHead"><b>Relevent Sites</b></h2>
+          <hr>
+          <ul class="sidebarSite">
+            <li class="link"><a href="https://www.marriott.com/hotels/travel/wasgn-gaylord-national-resort-and-convention-center/" target="_blank">Gaylord National Resort</a></li>
+            <li class="link"><a href="https://www.nationalharbor.com/" target="_blank">National Harbor</a></li>
+          </ul>
       </div>
       <div id="main" class="gridStyle">
-        <iframe width="650" height="450" frameborder="1" style="border: .25em solid #000000"
-        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBmYRVD-e2FKiTxX_zGuKwhLALhT4xfthU&q=1600+Pennsylvania+Ave+NW,Washington,DC" allowfullscreen>
+        <iframe id="hotelMap" width="650" height="450" frameborder="1" style="border: .25em solid #000000"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBmYRVD-e2FKiTxX_zGuKwhLALhT4xfthU&q=Gaylord+National+Resort,Fort+Washington,MD+20745" allowfullscreen>
         </iframe>
+        <h2 id="locationText"><b>Gaylord National Resort & Convention Center Features</b></h2>
+        <br id="floatClear">
+        <h3 id="FeaturesHead" class="HotelHead">The Gaylord has many amenities, including: &#9660;</h3>
+        <div class="infoText" id="FeaturesInfo">
+          <ul>
+            <li>A full service spa</li>
+            <li>Fitness center</li>
+            <li>Pool</li>
+            <li>Spa</li>
+            <li>Golf</li>
+            <li>Outdoor activites (e.g., kayaking, biking, horseback riding, etc.)</li>
+            <li>Meeting Space</li>
+            <li>Car rentals</li>
+            <li>Video Games / Game room</li>
+            <li>Breakfast (with a fee)</li>
+            <li>Barber/Beauty Shop</li>
+            <li>Cash Macine/ATM</li>
+            <li>Daily housekeeping</li>
+          </ul>
+        </div>
+        <h3 id="HarborHead" class="HotelHead">The Gaylord also offers convenient access to the National Harbor, shopping, and diving experiences. &#9660;</h3>
+        <div class="infoText" id="HarborInfo">
+          <p>The National Harbor has events going on all the time. Please see their <a href="https://www.nationalharbor.com/events/">
+            calendar</a> for the most updated events.</p>
+            <ul>
+              <li><a href="https://www.nationalharbor.com/dine/">Dine at the National Harbor</a></li>
+              <li><a href="https://www.nationalharbor.com/play/">Play at the National Harbor</a></li>
+              <li><a href="https://www.nationalharbor.com/shop/">Shop at the National Harbor</a></li>
+            </ul>
+        </div>
       </div>
       <div id="base" class="gridStyle">
-
+        <div>
+            <p>
+              Connect With National BPA:
+              <a class="w3-button userFeatures" href="https://www.facebook.com/businessprofessionalsofamerica" target="_blank" style="color:darkblue">Facebook</a>
+              <a class="w3-button userFeatures" href="https://www.instagram.com/bpanational/" target="_blank" style="color:darkblue">Instagram</a>
+              <a class="w3-button userFeatures" href="https://twitter.com/National_BPA" target="_blank" style="color:darkblue">Twitter</a>
+            </p>
+        </div>
       </div>
     </div>
 </div>
