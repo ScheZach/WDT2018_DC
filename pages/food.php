@@ -120,7 +120,7 @@
   <div class="w3-container">
     <div class="grid-container">
       <div id="sidebar" class="gridStyle">
-        <h2 class="sidebarHead"><b>Relavent Sites</b></h2>
+        <h2 class="sidebarHead"><b>Relevent Sites</b></h2>
         <hr>
         <ul class="sidebarSite">
           <li class="link"><a href="http://www.bpa.org/" target="_blank">BPA.org</a></li>

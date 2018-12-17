@@ -60,12 +60,11 @@
   <div class="w3-container">
     <div class="grid-container">
       <div id="sidebar" class="gridStyle">
-            <h2 class="sidebarHead"><b>Relevent Sites</b></h2>
-          <hr>
-          <ul class="sidebarSite">
-            <li class="link"><a href="https://www.marriott.com/hotels/travel/wasgn-gaylord-national-resort-and-convention-center/" target="_blank">Gaylord National Resort</a></li>
-            <li class="link"><a href="http://www.bpa.org/nlc/generalinfo" target="_blank">NLC General Info (bpa.org)</a></li>
-          </ul>
+        <h3><b>Table of Contents:</b></h3>
+        <p>Convetion Center Location</p>
+        <p>Convention Center Features</p>
+        <p>Dress Code</p>
+        <p>General List of Events</p>
       </div>
 
       <div id="main" class="gridStyle">
@@ -78,7 +77,10 @@
           <br id="floatClear">
         </div>
 
-        
+        <h2 id="conventionHead">Gaylord National Resort & Convention Center Features &#9660;</h2>
+        <div class="infoText" id="convention">
+          <p>Info</p>
+        </div>
 
         <h2 id="dressCodeHead">Dress code &#9660;</h2>
         <div class="infoText" id="dressCode">
@@ -116,21 +118,14 @@
           <a href="http://www.bpa.org/nlc/dresscode" target="_blank">Official Dress Code (bpa.org)</a>
         </div>
 
-        <h2 id="eventHead">NLC Schedule &#9660;</h2>
+        <h2 id="eventHead">General list of events &#9660;</h2>
         <div class="infoText" id="event">
-          <p>The 2020 NLC schedule has not been released yet.</p>
-          <p>Please reference the <a href="http://www.bpa.org/nlc/postcon" target="_blank">2018 NLC Schedule</a> for an idea of the format.</p>
-          </div>
+          <p>Info</p>
+        </div>
       </div>
       <div id="base" class="gridStyle">
-        <div>
-            <p>
-              Connect With National BPA:
-              <a href="https://www.facebook.com/businessprofessionalsofamerica" target="_blank" style="color:darkblue">Facebook</a>
-              <a href="https://www.instagram.com/bpanational/" target="_blank" style="color:darkblue">Instagram</a>
-              <a href="https://twitter.com/National_BPA" target="_blank" style="color:darkblue">Twitter</a>
-            </p>
-        </div>
+
+      </div>
     </div>
 </div>
 </body>

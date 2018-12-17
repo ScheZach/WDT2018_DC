@@ -61,33 +61,27 @@
   </ul>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/homepage/editbpalogo.png" alt="bpa logo">
-      <!--<br><br><br><br><br><br><br><br>
-      <div class="carousel-caption" style="color:black">
+      <img src="images/uhh.jpeg" alt="Los Angeles">
+      <div class="carousel-caption">
         <h2>Welcome to the 2020 National Leadership Conference!</h2>
         <h3>Washington D.C.</h3>
       </div>
-    -->
     </div>
     <div class="carousel-item">
-      <img src="images/homepage/togetherwecreatelarge.jpg" alt="2019 logo">
-      <!--<br><br><br><br><br><br><br><br>
-      <div class="carousel-caption" style="color:black">
-        <h2>2019 NLC</h2>
-        <h3>The 2019 NLC was a blast!</h3>
-        -->
-      </div>
-
-    <div class="carousel-item">
-      <img src="images/homepage/2018conference.jpg" alt="2018 logo">
-<!--<br><br><br><br><br><br><br><br>
-      <div class="carousel-caption" style="color:black">
-        <h2>2018 NLC</h2>
-        <h3>We had a great time at the 2018 NLC!</h3>
-        -->
+      <img src="images/placeholder2.jpg" alt="Chicago">
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
       </div>
     </div>
-
+    <div class="carousel-item">
+      <img src="images/placeholder3.jpg" alt="New York">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>
+    </div>
+  </div>
   <a class="carousel-control-prev" href="#demo" data-slide="prev">
     <span class="carousel-control-prev-icon"></span>
   </a>
@@ -108,14 +102,7 @@
         <!-- This only will occur when users login to the site -->
       </div>
       <div id="base" class="gridStyle">
-        <div>
-            <p>
-              Connect With National BPA:
-              <a href="https://www.facebook.com/businessprofessionalsofamerica" target="_blank" style="color:darkblue">Facebook</a>
-              <a href="https://www.instagram.com/bpanational/" target="_blank" style="color:darkblue">Instagram</a>
-              <a href="https://twitter.com/National_BPA" target="_blank" style="color:darkblue">Twitter</a>
-            </p>
-        </div>
+        <p>This is the other informatation box</p>
       </div>
     </div>
   </div>

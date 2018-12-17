@@ -18,7 +18,7 @@
   <style>
     .infoGrid {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 45% 55%;
       grid-template-rows: auto;
       grid-template-areas: "city info";
       grid-gap: .25em;
@@ -96,7 +96,7 @@
   <div class="w3-container">
     <div class="grid-container">
       <div id="sidebar" class="gridStyle">
-        <h2 class="sidebarHead"><b>Relavent Sites</b></h2>
+        <h2 class="sidebarHead"><b>Relevent Sites</b></h2>
         <hr>
         <ul class="sidebarSite">
           <li class="link"><a href="http://www.bpa.org/" target="_blank">BPA.org</a></li>
@@ -170,6 +170,7 @@
           <h4 class="MetroInfo">The closest stop to the Gaylord National Resort & Convention Center is the Huntington stop (40 min. walk, 10 min drive)</h4>
           <img src="../images/metroMap.jpg" class="MetroInfo"></img>
         </div>
+        <br><br><br>
         </div>
       </div>
     </div>
