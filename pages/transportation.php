@@ -116,7 +116,7 @@
       <div id="main" class="gridStyle">
         <div class="infoGrid">
         <div id="city">
-          <iframe width="650" height="650" frameborder="1" style="border: .25em solid #000000"
+          <iframe width="100%" height="100%" frameborder="1" style="border: .25em solid #000000"
           src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBmYRVD-e2FKiTxX_zGuKwhLALhT4xfthU&q=Washington,DC" allowfullscreen>
           </iframe>
         </div>

@@ -40,16 +40,54 @@
   <div class="w3-container">
     <div class="grid-container">
       <div id="sidebar" class="gridStyle">
-        <?php echo "php works";?>
-
+            <h2 class="sidebarHead"><b>Relevent Sites</b></h2>
+          <hr>
+          <ul class="sidebarSite">
+            <li class="link"><a href="https://www.marriott.com/hotels/travel/wasgn-gaylord-national-resort-and-convention-center/" target="_blank">Gaylord National Resort</a></li>
+            <li class="link"><a href="https://www.nationalharbor.com/" target="_blank">National Harbor</a></li>
+          </ul>
       </div>
       <div id="main" class="gridStyle">
         <iframe width="650" height="450" frameborder="1" style="border: .25em solid #000000"
         src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBmYRVD-e2FKiTxX_zGuKwhLALhT4xfthU&q=1600+Pennsylvania+Ave+NW,Washington,DC" allowfullscreen>
         </iframe>
+        <h2 id="conventionHead"><b>Gaylord National Resort & Convention Center Features</b></h2>
+        <div class="infoText" id="convention">
+        <h3>The Gaylord has many amenities, including:</h3>
+          <ul>
+            <li>A full service spa</li>
+            <li>Fitness center</li>
+            <li>Pool</li>
+            <li>Spa</li>
+            <li>Golf</li>
+            <li>Outdoor activites (e.g., kayaking, biking, horseback riding, etc.)</li>
+            <li>Meeting Space</li>
+            <li>Car rentals</li>
+            <li>Video Games / Game room</li>
+            <li>Breakfast (with a fee)</li>
+            <li>Barber/Beauty Shop</li>
+            <li>Cash Macine/ATM</li>
+            <li>Daily housekeeping</li>
+          </ul>
+        <h3>The Gaylord also offers convenient access to the National Harbor, which offers a variety of activities, shopping, and diving experiences.</h3>
+          <p>The National Harbor has events going on all the time. Please see their <a href="https://www.nationalharbor.com/events/">
+            calendar</a> for the most updated events.</p>
+            <ul>
+              <li><a href="https://www.nationalharbor.com/dine/">Dine at the National Harbor</a></li>
+              <li><a href="https://www.nationalharbor.com/play/">Play at the National Harbor</a></li>
+              <li><a href="https://www.nationalharbor.com/shop/">Shop at the National Harbor</a></li>
+            </ul>
+        </div>
       </div>
       <div id="base" class="gridStyle">
-
+        <div>
+            <p>
+              Connect With National BPA:
+              <a href="https://www.facebook.com/businessprofessionalsofamerica" target="_blank" style="color:darkblue">Facebook</a>
+              <a href="https://www.instagram.com/bpanational/" target="_blank" style="color:darkblue">Instagram</a>
+              <a href="https://twitter.com/National_BPA" target="_blank" style="color:darkblue">Twitter</a>
+            </p>
+        </div>
       </div>
     </div>
 </div>
