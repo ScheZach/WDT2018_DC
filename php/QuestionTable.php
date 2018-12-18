@@ -1,5 +1,5 @@
 <?php
-$sql = "SELECT question.questionId, user.username, question.question, question.submitDate FROM question INNER JOIN user ON question.userId = user.userId";
+$sql = "SELECT question.questionId, userTable.username, question.question, question.submitDate FROM question INNER JOIN userTable ON question.userId = userTable.userId";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {

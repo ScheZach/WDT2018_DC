@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS user (
+CREATE TABLE IF NOT EXISTS userTable (
   userId INT(10) PRIMARY KEY NOT NULL AUTO_INCREMENT,
   username VARCHAR(45) NOT NULL,
   password VARCHAR(45) NOT NULL
@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS question (
   question TEXT NOT NULL,
   submitDate DATE,
   userId INT(10),
-  FOREIGN KEY (userId) REFERENCES user(userId)
+  FOREIGN KEY (userId) REFERENCES userTable(userId)
 );
 
 CREATE TABLE IF NOT EXISTS answer (
@@ -18,6 +18,6 @@ CREATE TABLE IF NOT EXISTS answer (
   answerDate DATE,
   userId INT(10),
   questionId INT(10),
-  FOREIGN KEY (userId) REFERENCES user(userId),
+  FOREIGN KEY (userId) REFERENCES userTable(userId),
   FOREIGN KEY (questionId) REFERENCES question(questionId)
 );

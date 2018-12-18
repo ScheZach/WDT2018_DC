@@ -125,30 +125,30 @@
           </iframe>
         </div>
         <div class="transportationimages" id="info">
-          <img src="../images/metro.jpg" alt="metro image" class="responsive">
+          <img src="../images/Metro.jpg" alt="metro image" class="responsive">
         </div>
       </div>
         <div>
           <br>
           <div class="information">
           <h2 id="airportHead" class="InfoHead">Airport Services &#9660;</h2>
-          <h4 class="airportInfo">The best airport to fly into is the Ronald Regan Washington National Airport (DCA)</h4>
-          <h4 id="airlines" class="airportInfo">Some posible airlines are:<br>
-              &#8226; <a href="https://www.southwest.com/" target="_blank">Southwest</a><br>
-              &#8226; <a href="https://www.delta.com/" target="_blank">Delta</a><br>
-              &#8226; <a href="https://www.aa.com/homePage.do" target="_blank">American</a><br>
-              &#8226; <a href="https://www.united.com/en/us/" target="_blank">United</a></h4>
-          <h4 class="airportInfo">Uber, Lyft, and taxi services are all provide at the Ronald Regan National Airport. See these websites for more information<br>
+          <h4 class="airportInfo">&#8226; The best airport to fly into is the Ronald Regan Washington National Airport (DCA)</h4>
+          <h4 id="airlines" class="airportInfo">&#8227; Some posible airlines are:<br>
+              &#8226; <a class="airlineLink" href="https://www.southwest.com/" target="_blank">Southwest</a><br>
+              &#8226; <a class="airlineLink" href="https://www.delta.com/" target="_blank">Delta</a><br>
+              &#8226; <a class="airlineLink" href="https://www.aa.com/homePage.do" target="_blank">American</a><br>
+              &#8226; <a class="airlineLink" href="https://www.united.com/en/us/" target="_blank">United</a></h4>
+          <h4 class="airportInfo">&#8226; Uber, Lyft, and taxi services are all provide at the Ronald Regan National Airport. See these websites for more information<br>
           &#8226; <a href="https://www.uber.com/airports/dca/" target="_blank">Uber</a><br>
           &#8226; <a href="https://www.lyft.com/airports/dca" target="_blank">Lyft</a><br>
           &#8226; <a href="http://www.flyreagan.com/dca/taxi-service" target="_blank">Taxi</a></h4>
-          <h4 class="airportInfo">Super Shuttles are avilible for pick up at the Ronald Regan National Airport.
+          <h4 class="airportInfo">&#8226; Super Shuttles are avilible for pick up at the Ronald Regan National Airport.
              See Super Shuttle's website for more information: <a href="https://www.supershuttle.com/locations/washington-dca-iad/" target="_blank">Super Shuttle</a></h4>
           <hr class="airportInfo">
           <h2 id="UberHead" class="InfoHead">Uber, Lyft, and Taxi Services &#9660;</h2>
-          <h4 class="UberInfo">Uber, Lyft, and Taxi Services are provided. See RideGuru for more information on approximate prices:
+          <h4 class="UberInfo">&#8226; Uber, Lyft, and Taxi Services are provided. See RideGuru for more information on approximate prices:
            <a href="https://ride.guru/" target="_blank">RideGuru</a></h4>
-          <h4 class="UberInfo">Here are some example pricing for a ride from Washington D.C. to Fort Washington, Maryland (17.6 mi, 30 min) provided by RideGuru.</h4>
+          <h4 class="UberInfo">&#8226; Here are some example pricing for a ride from Washington D.C. to Fort Washington, Maryland (17.6 mi, 30 min) provided by RideGuru.</h4>
           <table class="pricing UberInfo">
             <tr><th>Uber Services</th><th>Pricing</th></tr>
             <tr><td>Uber Pool</td><td>$13-$20</td></tr>
@@ -170,14 +170,14 @@
           <br class="CancelFloat UberInfo">
           <hr class="UberInfo">
           <h2 id="MetroHead" class="InfoHead">Metro Services &#9660;</h2>
-          <h4 class="MetroInfo">The metro services the area in and around Washington DC.</h4>
-          <h4 class="MetroInfo">The metro does require the use of SmarTrip card to pay for trips. These cards can be purchased or recharged at any metro station.</h4>
-          <h4 class="MetroInfo">Pricing depends on the length of the trip and the time of day, but it is typically no more than $6.
+          <h4 class="MetroInfo">&#8226; The metro services the area in and around Washington DC.</h4>
+          <h4 class="MetroInfo">&#8226; The metro does require the use of SmarTrip card to pay for trips. These cards can be purchased or recharged at any metro station.</h4>
+          <h4 class="MetroInfo">&#8226; Pricing depends on the length of the trip and the time of day, but it is typically no more than $6.
              For more information, please go to the Washington Metropolitan Area Transit Authority calulator site:
            <a href="https://www.wmata.com/schedules/trip-planner/" target="_blank">WMATA</a></h4>
-          <h4 class="MetroInfo">The closest stop to the Gaylord National Resort & Convention Center is the Huntington stop (40 min. walk, 10 min drive).</h4>
-          <h4 class="MetroInfo">Click on the Metro Map to open it in a new tab.</h4>
-          <a href="../images/metroMap.jpg" target="_blank"><img src="../images/metroMap400.jpg" class="MetroInfo" class="responsive"></img></a>
+           <h4 class="MetroInfo">&#8226; The closest stop to the Gaylord National Resort & Convention Center is the Huntington stop (40 min. walk, 10 min drive).</h4>
+           <h4 class="MetroInfo">&#8226; Click on the Metro Map to open it in a new tab.</h4>
+           <a href="../images/metroMap.jpg" target="_blank"><img src="../images/metroMap400.jpg" class="MetroInfo" class="responsive"></img></a>
         </div>
         <br><br><br>
         </div>

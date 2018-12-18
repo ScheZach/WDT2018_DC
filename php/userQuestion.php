@@ -1,18 +1,8 @@
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "toor";
-$dbname = "WDDC2018";
+include 'DBconnect.php';
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-$sql = "SELECT question.questionId, user.username, question.question, question.submitDate FROM question INNER JOIN user ON question.userId = user.userId WHERE user.userId = ". $_SESSION["id"] .";";
+$sql = "SELECT question.questionId, userTable.username, question.question, question.submitDate FROM question INNER JOIN userTable ON question.userId = userTable.userId WHERE userTable.userId = ". $_SESSION["id"] .";";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {

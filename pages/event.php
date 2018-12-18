@@ -33,7 +33,7 @@
       border: .5em solid #9CC4E4;
       border: collapse;
       padding: .5em;
-      background-color: #2978B8;
+      background-color: #1867A7;
       color: #DDDDDD;
     }
     h3 {
@@ -45,6 +45,9 @@
       padding: .5em;
       background-color: #2978B8;
       color: #DDDDDD;
+    }
+    .NLCHead:hover {
+      color: #BBBBBB;
     }
   </style>
 </head>
@@ -92,7 +95,7 @@
 
 
         <div class="information">
-        <h2 id="dressCodeHead">Dress code &#9660;</h2>
+        <h2 id="dressCodeHead" class="NLCHead">Dress code &#9660;</h2>
         <div class="infoText" id="dressCode">
           <h3>Professional Dress Code:</h3>
           <p>Women Options:</p>
@@ -128,13 +131,13 @@
           <a href="http://www.bpa.org/nlc/dresscode" target="_blank">Official Dress Code (bpa.org)</a>
         </div>
 
-        <h2 id="eventHead">NLC Schedule &#9660;</h2>
+        <h2 id="eventHead" class="NLCHead">NLC Schedule &#9660;</h2>
         <div class="infoText" id="event">
           <p>The 2020 NLC schedule has not been released yet.</p>
           <p>Please reference the <a href="http://www.bpa.org/nlc/postcon" target="_blank">2018 NLC Schedule</a> for an idea of the format.</p>
           </div>
+        </div>
       </div>
-    </div>
       <div id="base" class="gridStyle">
         <div>
             <p>

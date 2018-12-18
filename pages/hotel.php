@@ -24,13 +24,14 @@
     grid-gap: .25em;
   }
   #gaylordImage {
+    margin: .5em;
+    margin-bottom: .75em;
     grid-area: image;
   }
   #floatClear {
     clear: left;
   }
   #hotelMap {
-    float: left;
     margin: .5em;
     margin-bottom: .75em;
     grid-area: hotel;
@@ -42,7 +43,7 @@
     border: .5em solid #9CC4E4;
     border: collapse;
     padding: .5em;
-    background-color: #2978B8;
+    background-color: #1867A7;
     color: #DDDDDD;
   }
   ul {
@@ -55,7 +56,7 @@
     font-size: 1.75em;
   }
   .HotelHead:hover {
-    color: #777777;
+    color: #BBBBBB;
   }
   .information {
     border: .5em solid #9CC4E4;
@@ -113,16 +114,17 @@
       </div>
       <div id="main" class="gridStyle">
         <h2 id="locationText"><b>Gaylord National Resort & Convention Center Features</b></h2>
-<div id="hotelMap">
-        <iframe width="650" height="450" frameborder="1" style="border: .25em solid #000000"
+        <div class="infoGrid">
+        <div id="hotelMap">
+        <iframe width="100%" height="100%" frameborder="1" style="border: .25em solid #000000"
         src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBmYRVD-e2FKiTxX_zGuKwhLALhT4xfthU&q=Gaylord+National+Resort,Fort+Washington,MD+20745" allowfullscreen>
       </iframe>
     </div>
       <div id="gaylordImage">
+        <img src="../images/Gaylord.jpg" width="100%" height="100%" alt="Gaylord"></img>
     </div>
-        <br id="floatClear">
-        <div class="information">
-
+  </div>
+      <div class="information">
         <h3 id="FeaturesHead" class="HotelHead">The Gaylord has many amenities, including: &#9660;</h3>
         <div class="infoText" id="FeaturesInfo">
           <ul>
@@ -152,7 +154,7 @@
             </ul>
         </div>
       </div>
-    </div>
+      </div>
       <div id="base" class="gridStyle">
         <div>
             <p>

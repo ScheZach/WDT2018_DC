@@ -31,6 +31,7 @@ more informatation about this go to learn css on w3*/
   grid-area: base;
   background-color: #e9f2f9;
   color: #444444;
+  font-size: 1.5em;
 }
 
 .userFeatures {
@@ -97,7 +98,6 @@ td:hover {
 .link:hover {
   color: #666666;
 }
-
 .responsive {
   width: 100%;
   height: auto;

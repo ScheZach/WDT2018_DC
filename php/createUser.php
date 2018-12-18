@@ -1,16 +1,6 @@
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "toor";
-$dbname = "WDDC2018";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+include 'DBconnect.php';
 
 $username = $password = $confirm_password = "";
 $username_err = $password_err = $confirm_password_err = "";
@@ -19,7 +9,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
   if(empty(trim($_POST["username"]))) {
     $username_err = "Please enter a username.";
   } else {
-    $sql = "SELECT userId FROM user WHERE username = ?";
+    $sql = "SELECT userId FROM userTable WHERE username = ?";
     if($stmt = $conn->prepare($sql)) {
       $stmt->bind_param("s", $param_username);
       $param_username = trim($_POST["username"]);
@@ -52,7 +42,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     }
   }
    if(empty($username_err) && empty($password_err) && empty($confirm_password_err)) {
-     $sql = "INSERT INTO user (username, password) VALUES (?, ?)";
+     $sql = "INSERT INTO userTable (username, password) VALUES (?, ?)";
      if($stmt = $conn->prepare($sql)) {
        $stmt->bind_param("ss", $param_username, $param_password);
        $param_username = $username;

@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -63,7 +64,6 @@
       </div>
       <div id="main" class="gridStyle">
         <?php
-          session_start();
           if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
             echo "<h2>". $_SESSION["username"] . ", Here are your answered questions.</h2>";
             include '../php/singleUserTable.php';
@@ -80,17 +80,7 @@
         include '../php/Maintable.php';
         echo "<h2>All questions</h2>";
 
-        $servername = "localhost";
-        $username = "root";
-        $password = "toor";
-        $dbname = "WDDC2018";
-
-        // Create connection
-        $conn = new mysqli($servername, $username, $password, $dbname);
-        // Check connection
-        if ($conn->connect_error) {
-            die("Connection failed: " . $conn->connect_error);
-        }
+        include '../php/DBconnect.php';
 
         include '../php/QuestionTable.php';
 

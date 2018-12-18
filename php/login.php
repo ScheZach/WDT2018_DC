@@ -6,17 +6,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     exit;
 }
 
-$servername = "localhost";
-$username = "root";
-$password = "toor";
-$dbname = "WDDC2018";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+include 'DBconnect.php';
 
 $username = $password = "";
 $username_err = $password_err = "";
@@ -35,7 +25,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
   if(empty($username_err) && empty($password_err)) {
-    $sql = "SELECT userId, username, password FROM user WHERE username = ?";
+    $sql = "SELECT userId, username, password FROM userTable WHERE username = ?";
     echo "not empty";
     if($stmt = $conn->prepare($sql)) {
       echo "prepared";

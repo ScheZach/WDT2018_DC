@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -85,7 +86,6 @@
   </a>
 </div>
         <?php
-          session_start();
           if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
             echo "<h2>Hello ". $_SESSION["username"] . "</h2>";
           }
