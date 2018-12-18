@@ -32,7 +32,7 @@
 </head>
 <body>
   <div class="w3-bar w3-red">
-  <h1 id="header">Welcome to the 2020 NLC at Washington D.C. Informatation Website</h1>
+  <h1 id="header">Welcome to the 2020 NLC at Washington D.C. Information Website</h1>
   <div class="w3-bar LinkColor">
     <a href="../home.php" class="w3-bar-item w3-button w3-hover-blue">Home</a>
     <a href="event.php" class="w3-bar-item w3-button w3-hover-blue">NLC</a>

@@ -18,7 +18,7 @@
   <style>
     .infoGrid {
       display: grid;
-      grid-template-columns: 45% 55%;
+      grid-template-columns: 50% 50%;
       grid-template-rows: auto;
       grid-template-areas: "city info";
       grid-gap: .25em;
@@ -52,6 +52,10 @@
     .InfoHead:hover {
       color: #BBBBBB;
     }
+    img {
+      width:400px;
+       object-fit:cover;
+    }
   </style>
   <script>
     $(document).ready(function() {
@@ -74,7 +78,7 @@
 </head>
 <body>
   <div class="w3-bar w3-red">
-    <h1 id="header">Welcome to the 2020 NLC at Washington D.C. Informatation Website</h1>
+    <h1 id="header">Welcome to the 2020 NLC at Washington D.C. Information Website</h1>
     <div class="w3-bar LinkColor">
       <a href="../home.php" class="w3-bar-item w3-button w3-hover-blue">Home</a>
       <a href="event.php" class="w3-bar-item w3-button w3-hover-blue">NLC</a>
@@ -120,8 +124,12 @@
           src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBmYRVD-e2FKiTxX_zGuKwhLALhT4xfthU&q=Washington,DC" allowfullscreen>
           </iframe>
         </div>
-        <div id="info">
-          <br><br><br>
+        <div class="transportationimages" id="info">
+          <img src="../images/metro.jpg" alt="metro image" class="responsive">
+        </div>
+      </div>
+        <div>
+          <br>
           <div class="information">
           <h2 id="airportHead" class="InfoHead">Airport Services &#9660;</h2>
           <h4 class="airportInfo">The best airport to fly into is the Ronald Regan Washington National Airport (DCA)</h4>
@@ -162,13 +170,14 @@
           <br class="CancelFloat UberInfo">
           <hr class="UberInfo">
           <h2 id="MetroHead" class="InfoHead">Metro Services &#9660;</h2>
-          <h4 class="MetroInfo">The DC area provides a metro serivce that travels across the DC.</h4>
+          <h4 class="MetroInfo">The metro services the area in and around Washington DC.</h4>
           <h4 class="MetroInfo">The metro does require the use of SmarTrip card to pay for trips. These cards can be purchased or recharged at any metro station.</h4>
           <h4 class="MetroInfo">Pricing depends on the length of the trip and the time of day, but it is typically no more than $6.
              For more information, please go to the Washington Metropolitan Area Transit Authority calulator site:
            <a href="https://www.wmata.com/schedules/trip-planner/" target="_blank">WMATA</a></h4>
-          <h4 class="MetroInfo">The closest stop to the Gaylord National Resort & Convention Center is the Huntington stop (40 min. walk, 10 min drive)</h4>
-          <img src="../images/metroMap.jpg" class="MetroInfo"></img>
+          <h4 class="MetroInfo">The closest stop to the Gaylord National Resort & Convention Center is the Huntington stop (40 min. walk, 10 min drive).</h4>
+          <h4 class="MetroInfo">Click on the Metro Map to open it in a new tab.</h4>
+          <a href="../images/metroMap.jpg" target="_blank"><img src="../images/metroMap400.jpg" class="MetroInfo" class="responsive"></img></a>
         </div>
         <br><br><br>
         </div>

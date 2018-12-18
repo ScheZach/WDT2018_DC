@@ -97,3 +97,8 @@ td:hover {
 .link:hover {
   color: #666666;
 }
+
+.responsive {
+  width: 100%;
+  height: auto;
+}

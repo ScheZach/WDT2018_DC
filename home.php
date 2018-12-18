@@ -29,7 +29,7 @@
 </head>
 <body>
   <div class="w3-bar w3-red">
-    <h1 id="header">Welcome to the 2020 NLC at Washington D.C. Informatation Website</h1>
+    <h1 id="header">Welcome to the 2020 NLC at Washington D.C. Information Website</h1>
     <div class="w3-bar LinkColor">
       <a href="home.php" class="w3-bar-item w3-button w3-hover-blue">Home</a>
       <a href="pages/event.php" class="w3-bar-item w3-button w3-hover-blue">NLC</a>
@@ -51,10 +51,12 @@
   <div class="w3-container">
     <div class="grid-container">
       <div id="sidebar" class="gridStyle">
+        <h3>The 2020 NLC will be held May 6-20.</h3><br>
         <ul>
           <li class="link"><a href="http://www.bpa.org/" target="_blank">BPA.org</a></li>
           <li class="link"><a href="https://www.nationalharbor.com/" target="_blank">National Harbor</a></li>
           <li class="link"><a href="https://ride.guru/" target="_blank">RideGuru</a></li>
+          <li class="link"><a href="https://www.marriott.com/hotels/travel/wasgn-gaylord-national-resort-and-convention-center/" target="_blank">Gaylord</a></li>
         </ul>
       </div>
       <div id="main" class="gridStyle">

@@ -16,6 +16,16 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="../css/main.css">
   <style>
+  .infoGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: "hotel image";
+    grid-gap: .25em;
+  }
+  #gaylordImage {
+    grid-area: image;
+  }
   #floatClear {
     clear: left;
   }
@@ -23,6 +33,7 @@
     float: left;
     margin: .5em;
     margin-bottom: .75em;
+    grid-area: hotel;
   }
   #locationText {
     text-align: center;
@@ -46,6 +57,13 @@
   .HotelHead:hover {
     color: #777777;
   }
+  .information {
+    border: .5em solid #9CC4E4;
+    border: collapse;
+    padding: .5em;
+    background-color: #2978B8;
+    color: #DDDDDD;
+  }
   </style>
   <script>
   $(document).ready(function(){
@@ -64,7 +82,7 @@
 </head>
 <body>
   <div class="w3-bar w3-red">
-  <h1 id="header">Welcome to the 2020 NLC at Washington D.C. Informatation Website</h1>
+  <h1 id="header">Welcome to the 2020 NLC at Washington D.C. Information Website</h1>
   <div class="w3-bar LinkColor">
     <a href="../home.php" class="w3-bar-item w3-button w3-hover-blue">Home</a>
     <a href="event.php" class="w3-bar-item w3-button w3-hover-blue">NLC</a>
@@ -94,11 +112,17 @@
           </ul>
       </div>
       <div id="main" class="gridStyle">
-        <iframe id="hotelMap" width="650" height="450" frameborder="1" style="border: .25em solid #000000"
-        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBmYRVD-e2FKiTxX_zGuKwhLALhT4xfthU&q=Gaylord+National+Resort,Fort+Washington,MD+20745" allowfullscreen>
-        </iframe>
         <h2 id="locationText"><b>Gaylord National Resort & Convention Center Features</b></h2>
+<div id="hotelMap">
+        <iframe width="650" height="450" frameborder="1" style="border: .25em solid #000000"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBmYRVD-e2FKiTxX_zGuKwhLALhT4xfthU&q=Gaylord+National+Resort,Fort+Washington,MD+20745" allowfullscreen>
+      </iframe>
+    </div>
+      <div id="gaylordImage">
+    </div>
         <br id="floatClear">
+        <div class="information">
+
         <h3 id="FeaturesHead" class="HotelHead">The Gaylord has many amenities, including: &#9660;</h3>
         <div class="infoText" id="FeaturesInfo">
           <ul>
@@ -117,7 +141,7 @@
             <li>Daily housekeeping</li>
           </ul>
         </div>
-        <h3 id="HarborHead" class="HotelHead">The Gaylord also offers convenient access to the National Harbor, shopping, and diving experiences. &#9660;</h3>
+        <h3 id="HarborHead" class="HotelHead">The Gaylord also offers convenient access to the National Harbor, shopping, and dining experiences. &#9660;</h3>
         <div class="infoText" id="HarborInfo">
           <p>The National Harbor has events going on all the time. Please see their <a href="https://www.nationalharbor.com/events/">
             calendar</a> for the most updated events.</p>
@@ -128,6 +152,7 @@
             </ul>
         </div>
       </div>
+    </div>
       <div id="base" class="gridStyle">
         <div>
             <p>

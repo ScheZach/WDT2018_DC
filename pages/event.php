@@ -39,11 +39,18 @@
     h3 {
       font-weight: bold;
     }
+    .information {
+      border: .5em solid #9CC4E4;
+      border: collapse;
+      padding: .5em;
+      background-color: #2978B8;
+      color: #DDDDDD;
+    }
   </style>
 </head>
 <body>
   <div class="w3-bar w3-red">
-    <h1 id="header">Welcome to the 2020 NLC at Washington D.C. Informatation Website</h1>
+    <h1 id="header">Welcome to the 2020 NLC at Washington D.C. Information Website</h1>
     <div class="w3-bar LinkColor">
       <a href="../home.php" class="w3-bar-item w3-button w3-hover-blue">Home</a>
       <a href="event.php" class="w3-bar-item w3-button w3-hover-blue">NLC</a>
@@ -84,7 +91,7 @@
         </div>
 
 
-
+        <div class="information">
         <h2 id="dressCodeHead">Dress code &#9660;</h2>
         <div class="infoText" id="dressCode">
           <h3>Professional Dress Code:</h3>
@@ -127,6 +134,7 @@
           <p>Please reference the <a href="http://www.bpa.org/nlc/postcon" target="_blank">2018 NLC Schedule</a> for an idea of the format.</p>
           </div>
       </div>
+    </div>
       <div id="base" class="gridStyle">
         <div>
             <p>
