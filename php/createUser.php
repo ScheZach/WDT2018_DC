@@ -47,13 +47,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
        $stmt->bind_param("ss", $param_username, $param_password);
        $param_username = $username;
        $param_password = $password;
-       echo $param_username;
        if($stmt->execute()) {
          session_start();
          $_SESSION["loggedin"] = true;
          $_SESSION["id"] = $userId;
          $_SESSION["username"] = $username;
-         echo "logged in";
          header("location: ../home.php");
        } else {
          echo "Something went wrong. Please try again later.";

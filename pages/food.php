@@ -124,7 +124,7 @@
         <hr>
         <ul class="sidebarSite">
           <li class="link"><a href="http://www.bpa.org/" target="_blank">BPA.org</a></li>
-          <li class="link"><a href="https://www.potbelly.com/" target="_blank">Pobelly Sandwich Works</a></li>
+          <li class="link"><a href="https://www.potbelly.com/" target="_blank">Potbelly Sandwich Shop</a></li>
           <li class="link"><a href="https://potomacgourmetmarket.com/" target="_blank">Potomac Gormet Market</a></li>
           <li class="link"><a href="http://elevationburger.com/" target="_blank">Elevation Burger</a></li>
           <li class="link"><a href="https://www.subway.com/en-US" target="_blank">Subway</a></li>

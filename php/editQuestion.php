@@ -15,8 +15,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $question_err = "Please enter a username.";
   } else {
     $question = trim($_POST["question"]);
-    echo $question;
-    echo $questionId;
   }
   if(empty($question_err)) {
     $sql = "UPDATE question SET question=?, submitDate=? WHERE  questionId = ?";

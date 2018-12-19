@@ -26,27 +26,20 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
   if(empty($username_err) && empty($password_err)) {
     $sql = "SELECT userId, username, password FROM userTable WHERE username = ?";
-    echo "not empty";
     if($stmt = $conn->prepare($sql)) {
-      echo "prepared";
        $stmt->bind_param("s", $param_username);
        $param_username = $username;
        if($stmt->execute()) {
-         echo "Execute";
          $stmt->store_result();
          if($stmt->num_rows == 1) {
            echo "MoreRows";
            $stmt->bind_result($userId, $username, $hashed_password);
            if($stmt->fetch()) {
-             echo "fetch";
-             echo " ".$password;
-             echo " ".$hashed_password;
              if($password === $hashed_password) {
                session_start();
                $_SESSION["loggedin"] = true;
                $_SESSION["id"] = $userId;
                $_SESSION["username"] = $username;
-               echo "logged in";
                header("location: ../home.php");
              } else {
                $password_err = "The password you entered was not valid.";

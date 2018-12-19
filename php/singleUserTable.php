@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 include 'DBconnect.php';
 
 $sql = "SELECT userTable.username, question.questionId, question.question, question.submitDate, answer.answer, answer.answerDate FROM ((question INNER JOIN answer ON question.questionId = answer.questionId) INNER JOIN userTable ON question.userId = userTable.userId) WHERE userTable.userId = ". $_SESSION["id"]. ";";

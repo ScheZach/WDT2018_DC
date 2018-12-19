@@ -52,7 +52,7 @@
   <div class="w3-container">
     <div class="grid-container">
       <div id="sidebar" class="gridStyle">
-        <h3>The 2020 NLC will be held May 6-20.</h3><br>
+        <h3>The 2020 NLC will be held May 6-0.</h3><br>
         <ul>
           <li class="link"><a href="http://www.bpa.org/" target="_blank">BPA.org</a></li>
           <li class="link"><a href="https://www.nationalharbor.com/" target="_blank">National Harbor</a></li>
