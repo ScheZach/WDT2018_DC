@@ -23,6 +23,15 @@
       grid-template-areas: "city info";
       grid-gap: .25em;
     }
+    @media screen and (max-width: 40em) {
+      .infoGrid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+        grid-template-areas: "city" "info";
+        grid-gap: .25em;
+      }
+    }
     #city {
       grid-area: city;
     }
@@ -55,6 +64,10 @@
     img {
       width:400px;
        object-fit:cover;
+    }
+    #metroImg {
+      width: 100%;
+      height: auto;
     }
   </style>
   <script>
@@ -177,7 +190,7 @@
            <a href="https://www.wmata.com/schedules/trip-planner/" target="_blank">WMATA</a></h4>
            <h4 class="MetroInfo">&#8226; The closest stop to the Gaylord National Resort & Convention Center is the Huntington stop (40 min. walk, 10 min drive).</h4>
            <h4 class="MetroInfo">&#8226; Click on the Metro Map to open it in a new tab.</h4>
-           <a href="../images/metroMap.jpg" target="_blank"><img src="../images/metroMap400.jpg" class="MetroInfo" class="responsive"></img></a>
+           <a href="../images/metroMap.jpg" target="_blank"><img id="metroImg" src="../images/metroMap400.jpg" class="MetroInfo" class="responsive"></img></a>
         </div>
         <br><br><br>
         </div>

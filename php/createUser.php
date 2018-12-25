@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 include 'DBconnect.php';
 
 $username = $password = $confirm_password = "";
@@ -48,11 +48,24 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
        $param_username = $username;
        $param_password = $password;
        if($stmt->execute()) {
-         session_start();
          $_SESSION["loggedin"] = true;
-         $_SESSION["id"] = $userId;
          $_SESSION["username"] = $username;
-         header("location: ../home.php");
+         $sql2 = "SELECT userId, username, password FROM userTable WHERE username = ?";
+         if($stmt2 = $conn->prepare($sql2)) {
+           $stmt2->bind_param("s", $param_username);
+           $param_username = $username;
+           if($stmt2->execute()) {
+             $stmt2->store_result();
+             if($stmt2->num_rows == 1) {
+               $stmt2->bind_result($userId, $username, $hashed_password);
+               if($stmt2->fetch()) {
+                 $_SESSION["id"] = $userId;
+                 header("location: ../home.php");
+               }
+             }
+           }
+         }
+         $stmt2->close();
        } else {
          echo "Something went wrong. Please try again later.";
 

@@ -4,7 +4,7 @@
 <head>
   <title>Washington DC Nationals Guide</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans|Slabo+27px" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
@@ -25,6 +25,19 @@
     .link {
       text-align: left;
       font-size: 1.5em;
+    }
+    .carousel-item {
+      width: 100%;
+      height: auto;
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+    @media screen and (max-width: 40em) {
+      .mainInfo {
+        font-size: 1.5em;
+      }
     }
   </style>
 </head>
@@ -87,10 +100,10 @@
 </div>
         <?php
           if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-            echo "<h2>Hello ". $_SESSION["username"] . "</h2>";
+            echo "<h2 class='mainInfo'>Hello ". $_SESSION["username"] . "</h2>";
           }
           if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-            echo "<h2>Feel free to log in or create an account to gain access to all of our features<br>";
+            echo "<h2 class='mainInfo'>Feel free to log in or create an account to gain access to all of our features<br>";
             echo "<a href='php/login.php' class='w3-button userFeatures'>Log In</a> <a href='php/createUser.php' class='w3-button userFeatures'>Create User</a></h2>";
           }
         ?>

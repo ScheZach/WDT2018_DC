@@ -24,6 +24,16 @@
                            "Mediterranean Dessert Coffee";
       grid-gap: .25em;
     }
+    @media screen and (max-width: 40em) {
+      .foodGrid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-template-areas: "American" "Mexican" "Asian"
+                             "Mediterranean" "Dessert" "Coffee";
+        grid-gap: .25em;
+      }
+    }
     #American {
       grid-area: American;
     }

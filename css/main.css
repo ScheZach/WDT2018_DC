@@ -1,6 +1,5 @@
 /*Elena, this @media section is to make our website responsive and fit on phones. Just FYI and if you want
 more informatation about this go to learn css on w3*/
-@media screen and (max-width: 40em) {}
 
 /*This is how we created the seperate sections of the site. All of these sections are created from <div>*/
 
@@ -57,6 +56,7 @@ body {
 .gridStyle {
   border: .5em ridge #000000;
   padding: .5em;
+  text-align: center;
 }
 
 #header {
@@ -101,4 +101,12 @@ td:hover {
 .responsive {
   width: 100%;
   height: auto;
+}
+@media screen and (max-width: 40em) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "sidebar" "main" "base";
+  }
 }

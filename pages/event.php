@@ -24,6 +24,8 @@
       float: left;
       margin: .5em;
       margin-bottom: .75em;
+      width: 100%;
+      height: auto;
     }
     #floatClear {
       clear: left;

@@ -29,6 +29,15 @@
       color: #DDDDDD;
       background-color: #3A89C9;
     }
+    @media screen and (max-width: 40em) {
+      th {
+        font-size: .7em;
+      }
+      td {
+        font-size: .75em;
+      }
+
+    }
   </style>
 </head>
 <body>
@@ -66,9 +75,13 @@
         <?php
           if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
             echo "<h2>". $_SESSION["username"] . ", Here are your answered questions.</h2>";
+            echo "<div style='overflow-x:auto;'>";
             include '../php/singleUserTable.php';
+            echo "</div>";
             echo "<h2>Here are all of your questions.</h2>";
+            echo "<div style='overflow-x:auto;'>";
             include '../php/userQuestion.php';
+            echo "</div>";
             echo "<hr><div id='userAdd'>";
             echo "<h2>Have a question? <a href='../php/addQuestion.php'>Click here</a> to add one.</h2>";
             echo "<h2>Have an answer? <a href='../php/addAnswer.php'>Click here</a> to add one.</h2>";

@@ -23,6 +23,15 @@
       grid-template-areas: "map info pic";
       grid-gap: .25em;
     }
+    @media screen and (max-width: 40em) {
+      .ActiveGrid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "info" "map" "pic";
+        grid-gap: .25em;
+      }
+    }
     .map {
       grid-area: map;
     }
@@ -140,9 +149,11 @@
           </div>
         </div>
         <div class="ActiveDiv ActiveGrid">
-          <iframe class="map" width="100%" height="100%" frameborder="1" style="border: .25em solid #000000"
+          <div class="map">
+          <iframe width="100%" height="100%" frameborder="1" style="border: .25em solid #000000"
           src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBmYRVD-e2FKiTxX_zGuKwhLALhT4xfthU&q=Washington+Monument" allowfullscreen>
           </iframe>
+        </div>
           <div class="info">
           <h4 class="ActiveText ActiveHead"><b>Washington Monument</b></h4>
           <table>
@@ -158,9 +169,11 @@
           </div>
         </div>
         <div class="ActiveDiv ActiveGrid">
-          <iframe class="map" width="100%" height="100%" frameborder="1" style="border: .25em solid #000000"
+          <div class="map">
+          <iframe width="100%" height="100%" frameborder="1" style="border: .25em solid #000000"
           src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBmYRVD-e2FKiTxX_zGuKwhLALhT4xfthU&q=United+States+Capitol" allowfullscreen>
           </iframe>
+        </div>
           <div class="info">
           <h4 class="ActiveText ActiveHead"><b>Capitol Building</b></h4>
           <table>
@@ -176,9 +189,11 @@
           </div>
         </div>
         <div class="ActiveDiv ActiveGrid">
-          <iframe class="map" width="100%" height="100%" frameborder="1" style="border: .25em solid #000000"
+          <div class="map">
+          <iframe width="100%" height="100%" frameborder="1" style="border: .25em solid #000000"
           src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBmYRVD-e2FKiTxX_zGuKwhLALhT4xfthU&q=Library+of+Congress" allowfullscreen>
           </iframe>
+        </div>
           <div class="info">
           <h4 class="ActiveText ActiveHead"><b>Library of Congress</b></h4>
           <table>
@@ -194,9 +209,11 @@
           </div>
         </div>
         <div class="ActiveDiv ActiveGrid">
+          <div class="map">
           <iframe width="100%" height="100%" frameborder="1" style="border: .25em solid #000000"
           src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBmYRVD-e2FKiTxX_zGuKwhLALhT4xfthU&q=United+States+Supreme+Court+Building" allowfullscreen>
           </iframe>
+        </div>
           <div class="info">
           <h4 class="ActiveText ActiveHead"><b>Supreme Court</b></h4>
           <table>
@@ -211,9 +228,11 @@
           </div>
         </div>
         <div class="ActiveDiv ActiveGrid">
+          <div class="map">
           <iframe width="100%" height="100%" frameborder="1" style="border: .25em solid #000000"
           src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBmYRVD-e2FKiTxX_zGuKwhLALhT4xfthU&q=National+Mall" allowfullscreen>
           </iframe>
+        </div>
           <div class="info">
           <h4 class="ActiveText ActiveHead"><b>Memorials on National Mall</b></h4>
           <table>

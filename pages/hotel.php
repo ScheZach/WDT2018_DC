@@ -23,6 +23,15 @@
     grid-template-areas: "hotel image";
     grid-gap: .25em;
   }
+  @media screen and (max-width: 40em) {
+    .infoGrid {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: auto auto;
+      grid-template-areas: "hotel" "image";
+      grid-gap: .25em;
+    }
+  }
   #gaylordImage {
     margin: .5em;
     margin-bottom: .75em;
