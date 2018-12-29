@@ -32,6 +32,15 @@
         grid-gap: .25em;
       }
     }
+    @media screen and (max-width: 80em) {
+      .ActiveGrid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "info" "map" "pic";
+        grid-gap: .25em;
+      }
+    }
     .map {
       grid-area: map;
     }
@@ -59,7 +68,7 @@
       margin: .5em;
       border: .25em solid #000000;
       width: 100%;
-      height: 100%
+      height: auto;
     }
     table {
       margin: .75em;
@@ -122,7 +131,7 @@
           </table>
           </div>
           <div class="pic">
-          <img class="ActiveImg" src="../images/SmWhiteHouse.jpg" alt="White" width="100%" height="100%"></img>
+          <img class="ActiveImg" src="../images/SmWhiteHouse.jpg" alt="White" width="100%"></img>
           </div>
         </div>
         <div class="ActiveDiv ActiveGrid">
@@ -250,7 +259,7 @@
       <div id="base" class="gridStyle">
         <div>
             <p>
-              Connect With National BPA:
+              Connect With National BPA:<br>
               <a class="w3-button userFeatures" href="https://www.facebook.com/businessprofessionalsofamerica" target="_blank" style="color:darkblue">Facebook</a>
               <a class="w3-button userFeatures" href="https://www.instagram.com/bpanational/" target="_blank" style="color:darkblue">Instagram</a>
               <a class="w3-button userFeatures" href="https://twitter.com/National_BPA" target="_blank" style="color:darkblue">Twitter</a>

@@ -34,6 +34,15 @@
         grid-gap: .25em;
       }
     }
+    @media screen and (max-width: 80em) {
+      .foodGrid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "American Mexican" "Asian Mediterranean" "Dessert Coffee";
+        grid-gap: .25em;
+      }
+    }
     #American {
       grid-area: American;
     }
@@ -287,7 +296,7 @@
       <div id="base" class="gridStyle">
         <div>
             <p>
-              Connect With National BPA:
+              Connect With National BPA:<br>
               <a class="w3-button userFeatures" href="https://www.facebook.com/businessprofessionalsofamerica" target="_blank" style="color:darkblue">Facebook</a>
               <a class="w3-button userFeatures" href="https://www.instagram.com/bpanational/" target="_blank" style="color:darkblue">Instagram</a>
               <a class="w3-button userFeatures" href="https://twitter.com/National_BPA" target="_blank" style="color:darkblue">Twitter</a>

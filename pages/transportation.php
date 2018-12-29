@@ -32,6 +32,15 @@
         grid-gap: .25em;
       }
     }
+    @media screen and (max-width: 80em) {
+      .infoGrid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+        grid-template-areas: "city" "info";
+        grid-gap: .25em;
+      }
+    }
     #city {
       grid-area: city;
     }
@@ -195,17 +204,17 @@
         <br><br><br>
         </div>
       </div>
-    </div>
       <div id="base" class="gridStyle">
         <div>
             <p>
-              Connect With National BPA:
+              Connect With National BPA:<br>
               <a class="w3-button userFeatures" href="https://www.facebook.com/businessprofessionalsofamerica" target="_blank" style="color:darkblue">Facebook</a>
               <a class="w3-button userFeatures" href="https://www.instagram.com/bpanational/" target="_blank" style="color:darkblue">Instagram</a>
               <a class="w3-button userFeatures" href="https://twitter.com/National_BPA" target="_blank" style="color:darkblue">Twitter</a>
             </p>
         </div>
       </div>
+    </div>
     </div>
 </div>
 </body>
