@@ -15,6 +15,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="../css/main.css">
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
   <style>
   .infoGrid {
     display: grid;
@@ -41,7 +44,7 @@
       grid-gap: .25em;
     }
   }
-  #gaylordImage {
+  .gaylordImage {
     margin: .5em;
     margin-bottom: .75em;
     grid-area: image;
@@ -49,12 +52,12 @@
   #floatClear {
     clear: left;
   }
-  #hotelMap {
+  .hotelMap {
     margin: .5em;
     margin-bottom: .75em;
     grid-area: hotel;
   }
-  #locationText {
+  .locationText {
     text-align: center;
   }
   .infoText {
@@ -83,11 +86,20 @@
     background-color: #2978B8;
     color: #DDDDDD;
   }
+  h1 {
+    font-size: 2em;
+  }
+  .mapBorder {
+    border: .25em solid #000000;
+  }
   </style>
   <script>
   $(document).ready(function(){
     $("#FeaturesInfo").hide();
     $("#HarborInfo").hide();
+    $("#FeaturesInfoWestin").hide();
+    $("#FeaturesInfoAC").hide();
+  //  $("#FeaturesInfoAlpha").hide();
 
     $("#FeaturesHead").click(function() {
       $("#FeaturesInfo").slideToggle();
@@ -95,6 +107,15 @@
     $("#HarborHead").click(function() {
       $("#HarborInfo").slideToggle();
     });
+    $("#FeaturesHeadWestin").click(function() {
+      $("#FeaturesInfoWestin").slideToggle();
+    });
+    $("#FeaturesHeadAC").click(function() {
+      $("#FeaturesInfoAC").slideToggle();
+    });
+    //$("#FeaturesHeadAlpha").click(function() {
+      //$("#FeaturesInfoAlpha").slideToggle();
+    //});
 
   });
   </script>
@@ -128,21 +149,85 @@
           <ul class="sidebarSite">
             <li class="link"><a href="https://www.marriott.com/hotels/travel/wasgn-gaylord-national-resort-and-convention-center/" target="_blank">Gaylord National Resort</a></li>
             <li class="link"><a href="https://www.nationalharbor.com/" target="_blank">National Harbor</a></li>
+            <li class="link"><a href="https://www.marriott.com/hotels/travel/washw-the-westin-washington-national-harbor/" target="_blank">The Westin Washington National Harbor</a></li>
+            <li class="link"><a href="https://www.marriott.com/hotels/travel/waswa-ac-hotel-national-harbor-washington-dc-area/" target="_blank">AC Hotel National Harbor</a></li>
           </ul>
       </div>
       <div id="main" class="gridStyle">
-        <h2 id="locationText"><b>Gaylord National Resort & Convention Center Features</b></h2>
+        <div>
+        <h1><b>Please select your state or territory to see information about your hotel</b></h1>
+        <div class="information">
+          <select name="stateName" id="state">
+            <option value="">Your State</option>
+            <option value="alabama">Alabama</option> <!--works -->
+            <option value="alaska">Alaska</option> <!--works -->
+            <option value="arizona">Arizona</option> <!--works -->
+            <option value="arkansas">Arkansas</option> <!--works -->
+            <option value="california">California</option> <!--works -->
+            <option value="colorado">Colorado</option> <!--works -->
+            <option value="connecticut">Connecticut</option> <!--works -->
+            <option value="delaware">Delaware</option> <!--works -->
+            <option value="flordia">Flordia</option> <!--works -->
+            <option value="georgia">Georgia</option> <!--works -->
+            <option value="hawaii">Hawaii</option> <!--works -->
+            <option value="idaho">Idaho</option> <!--works -->
+            <option value="illinois">Illinois</option> <!--works -->
+            <option value="indiana">Indiana</option> <!--works -->
+            <option value="iowa">Iowa</option> <!--works -->
+            <option value="kansas">Kansas</option> <!--works -->
+            <option value="kentucky">Kentucky</option> <!--works -->
+            <option value="louisana">Louisana</option> <!--works -->
+            <option value="maine">Maine</option> <!--works -->
+            <option value="maryland">Maryland</option> <!--works -->
+            <option value="massachusetts">Massachusetts</option> <!--works -->
+            <option value="michigan">Michigan</option> <!--works -->
+            <option value="minnesoda">Minnesoda</option> <!--works -->
+            <option value="misssissippi">Mississippi</option> <!--works -->
+            <option value="missouri">Missouri</option> <!--works -->
+            <option value="montana">Montana</option> <!--works -->
+            <option value="nebraska">Nebraska</option> <!--works -->
+            <option value="nevada">Nevada</option> <!--works -->
+            <option value="newHampshire">New Hampshire</option> <!--works -->
+            <option value="newJersey">New Jersey</option> <!--works -->
+            <option value="newMexico">New Mexico</option> <!--works -->
+            <option value="newYork">New York</option> <!--works -->
+            <option value="northCarolina">North Carolina</option> <!--works -->
+            <option value="northDakota">North Dakota</option> <!--works -->
+            <option value="ohio">Ohio</option> <!--works -->
+            <option value="oklahoma">Oklahoma</option> <!--works -->
+            <option value="oregon">Oregon</option> <!--works -->
+            <option value="pennsylvania">Pennsylvania</option> <!--works -->
+            <option value="rhodeIsland">Rhode Island</option> <!--works -->
+            <option value="southCarolina">South Carolina</option> <!--works -->
+            <option value="southDakota">South Dakota</option> <!--works -->
+            <option value="tennessee">Tennessee</option> <!--works -->
+            <option value="texas">Texas</option> <!--works -->
+            <option value="utah">Utah</option> <!--works -->
+            <option value="vermont">Vermont</option> <!--works -->
+            <option value="virginia">Virginia</option> <!--works -->
+            <option value="washington">Washington</option> <!--works -->
+            <option value="westVirginia">West Virginia</option> <!--works -->
+            <option value="wisconsin">Wisconsin</option> <!--works -->
+            <option value="wyoming">Wyoming</option> <!--works -->
+            <option value="puertoRico">Puerto Rico</option> <!--works -->
+          </select>
+          <div id="root"></div>
+        </div>
+        </div>
+        <h1><b>The National Leadership Conference uses multiple hotels for lodging. These are some possible hotels for your chapter.</b></h1>
+        <div class="information">
+        <h2 class="locationText"><b>Gaylord National Resort & Convention Center Features</b></h2>
         <div class="infoGrid">
-        <div id="hotelMap">
+        <div class="hotelMap">
         <iframe width="100%" height="100%" frameborder="1" style="border: .25em solid #000000"
         src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBmYRVD-e2FKiTxX_zGuKwhLALhT4xfthU&q=Gaylord+National+Resort,Fort+Washington,MD+20745" allowfullscreen>
       </iframe>
     </div>
-      <div id="gaylordImage">
+      <div class="gaylordImage">
         <img src="../images/Gaylord.jpg" width="100%" height="100%" alt="Gaylord"></img>
     </div>
   </div>
-      <div class="information">
+        <hr>
         <h3 id="FeaturesHead" class="HotelHead">The Gaylord has many amenities, including: &#9660;</h3>
         <div class="infoText" id="FeaturesInfo">
           <ul>
@@ -161,7 +246,72 @@
             <li>Daily housekeeping</li>
           </ul>
         </div>
-        <h3 id="HarborHead" class="HotelHead">The Gaylord also offers convenient access to the National Harbor, shopping, and dining experiences. &#9660;</h3>
+      </div>
+      <div class="information">
+        <h2 class="locationText"><b>The Westin Washington National Harbor Features</b></h2>
+        <div class="infoGrid">
+        <div class="hotelMap">
+        <iframe width="100%" height="100%" frameborder="1" style="border: .25em solid #000000"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBmYRVD-e2FKiTxX_zGuKwhLALhT4xfthU&q=The+Westin+Washington+National+Harbor,National+Harbor,MD+20745" allowfullscreen>
+      </iframe>
+    </div>
+      <div class="gaylordImage">
+        <img src="../images/Gaylord.jpg" width="100%" height="100%" alt="Gaylord"></img>
+    </div>
+  </div>
+        <hr>
+        <h3 id="FeaturesHeadWestin" class="HotelHead">The Westin Washington has many amenities, including: &#9660;</h3>
+        <div class="infoText" id="FeaturesInfoWestin">
+          <ul>
+            <li>A "pets welcome" policy</li>
+            <li>Breakfast options (with a fee)</li>
+            <li>Two restaurants: Sauciety (american), Lobby Bar (cajun)</li>
+            <li>24 hour room service</li>
+            <li>On-site laundry</li>
+            <li>Valet dry-cleaning</li>
+            <li>Daily housekeeping</li>
+            <li>Car rentals</li>
+            <li>Air conditioning</li>
+            <li>Cable/Satellite TV</li>
+            <li>Beauty Shop</li>
+            <li>Limousine service</li>
+            <li>Fitness center</li>
+            <li>Indoor pool with a Whirlpool</li>
+          </ul>
+        </div>
+      </div>
+      <div class="information">
+      <h2 class="locationText"><b>AC Hotel National Harbor Features</b></h2>
+      <div class="infoGrid">
+      <div class="hotelMap">
+      <iframe width="100%" height="100%" frameborder="1" style="border: .25em solid #000000"
+      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBmYRVD-e2FKiTxX_zGuKwhLALhT4xfthU&q=AC+Hotel+by+Marriott+National+Harbor+Washington,DC+Area,National+Harbor,MD+20745" allowfullscreen>
+    </iframe>
+  </div>
+    <div class="gaylordImage">
+      <img src="../images/Gaylord.jpg" width="100%" height="100%" alt="Gaylord"></img>
+  </div>
+</div>
+      <hr>
+      <h3 id="FeaturesHeadAC" class="HotelHead">The AC Hotel has many amenities, including: &#9660;</h3>
+      <div class="infoText" id="FeaturesInfoAC">
+        <ul>
+          <li>Breakfast options (with a fee)</li>
+          <li>Sundry/Convenience store</li>
+          <li>Two restaurants: AC Kitchen (European), AC Lounge (Tapas)</li>
+          <li>Daily housekeeping</li>
+          <li>Valet dry-cleaning</li>
+          <li>Limousine service</li>
+          <li>Car rentals</li>
+          <li>Air conditioning</li>
+          <li>Cable/satellite TV</li>
+          <li>Fitness Center</li>
+          <li>Outdoor Activities near by (e.g. boating, bowling, miniature golf and golf)</li>
+        </ul>
+      </div>
+    </div>
+      <div class="information">
+        <h3 id="HarborHead" class="HotelHead">The National Harbor area offers convenient access to the National Harbor, shopping, and dining experiences. &#9660;</h3>
         <div class="infoText" id="HarborInfo">
           <p>The National Harbor has events going on all the time. Please see their <a href="https://www.nationalharbor.com/events/">
             calendar</a> for the most updated events.</p>
@@ -185,5 +335,6 @@
       </div>
     </div>
 </div>
+<script type="text/babel" src="../js/yourhotel.js"></script>
 </body>
 </html>
