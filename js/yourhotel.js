@@ -23,7 +23,7 @@ class hotel extends React.Component {
     if (this.state.stateElement == "") {
       return (
         <div>
-        <button onClick={this.changeState}>Select</button>
+        <button class="StateButton" onClick={this.changeState}>Select</button>
         <hr></hr>
         <div class="infoText">
         <h3>You have not selected a state</h3>

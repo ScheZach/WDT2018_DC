@@ -111,3 +111,9 @@ td:hover {
     grid-template-areas: "sidebar" "main" "base";
   }
 }
+.information {
+  font-size: 1.2em;
+}
+.infoText {
+  font-size: 1.2em;
+}
