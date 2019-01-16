@@ -117,3 +117,9 @@ td:hover {
 .infoText {
   font-size: 1.2em;
 }
+.infoLink {
+  color: #9cc4e4;
+}
+.infoLink:hover {
+  color: #e9f2f9;
+}

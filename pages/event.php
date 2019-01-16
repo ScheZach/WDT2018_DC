@@ -130,13 +130,13 @@
             <li>Innapropriate words and/or pictures</li>
             <li>During professional events, denim skirts</li>
           </ul><br>
-          <a href="http://www.bpa.org/nlc/dresscode" target="_blank">Official Dress Code (bpa.org)</a>
+          <a class="infoLink" href="http://www.bpa.org/nlc/dresscode" target="_blank">Official Dress Code (bpa.org)</a>
         </div>
 
         <h2 id="eventHead" class="NLCHead">NLC Schedule &#9660;</h2>
         <div class="infoText" id="event">
           <p>The 2020 NLC schedule has not been released yet.</p>
-          <p>Please reference the <a href="http://www.bpa.org/nlc/postcon" target="_blank">2018 NLC Schedule</a> for an idea of the format.</p>
+          <p>Please reference the <a class="infoLink" href="http://www.bpa.org/nlc/postcon" target="_blank">2018 NLC Schedule</a> for an idea of the format.</p>
           </div>
         </div>
       </div>

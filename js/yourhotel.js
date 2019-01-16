@@ -23,7 +23,7 @@ class hotel extends React.Component {
     if (this.state.stateElement == "") {
       return (
         <div>
-        <button class="StateButton" onClick={this.changeState}>Select</button>
+        <button class="StateButton w3-indigo w3-border w3-border-indigo" onClick={this.changeState}>Select</button>
         <hr></hr>
         <div class="infoText">
         <h3>You have not selected a state</h3>
@@ -40,7 +40,7 @@ class hotel extends React.Component {
         this.state.stateElement == "illinois" || this.state.stateElement == "indiana" || this.state.stateElement == "michigan") {
       return (
         <div>
-        <button onClick={this.changeState}>Select</button>
+        <button class="StateButton w3-indigo w3-border w3-border-indigo" onClick={this.changeState}>Select</button>
         <hr></hr>
         <div class="infoText">
         <h2 class="locationText"><b>Gaylord National Resort & Convention Center Features</b></h2>
@@ -55,7 +55,7 @@ class hotel extends React.Component {
     </div>
   </div>
         <hr></hr>
-        <h3 id="FeaturesHeadAlpha" class="HotelHead">The Gaylord has many amenities, including: &#9660;</h3>
+        <h3 id="FeaturesHeadAlpha" class="HotelHead">The Gaylord has many amenities, including:</h3>
         <div class="infoText" id="FeaturesInfoAlpha">
           <ul>
             <li>A full service spa</li>
@@ -87,7 +87,7 @@ class hotel extends React.Component {
     this.state.stateElement == "maine" || this.state.stateElement == "massachusetts") {
       return (
         <div>
-        <button onClick={this.changeState}>Select</button>
+        <button class="StateButton w3-indigo w3-border w3-border-indigo" onClick={this.changeState}>Select</button>
         <hr></hr>
         <div class="infoText">
         <h2 class="locationText"><b>The Westin Washington National Harbor Features</b></h2>
@@ -102,7 +102,7 @@ class hotel extends React.Component {
     </div>
   </div>
         <hr></hr>
-        <h3 id="FeaturesHeadAlpha" class="HotelHead">The Westin Washington has many amenities, including: &#9660;</h3>
+        <h3 id="FeaturesHeadAlpha" class="HotelHead">The Westin Washington has many amenities, including:</h3>
         <div class="infoText" id="FeaturesInfoAlpha">
           <ul>
             <li>A "pets welcome" policy</li>
@@ -130,7 +130,7 @@ class hotel extends React.Component {
      this.state.stateElement == "southDakota" || this.state.stateElement == "nebraska") {
         return (
           <div>
-          <button onClick={this.changeState}>Select</button>
+          <button class="StateButton w3-indigo w3-border w3-border-indigo" onClick={this.changeState}>Select</button>
           <hr></hr>
           <div class="infoText">
           <h2 class="locationText"><b>AC Hotel National Harbor Features</b></h2>
@@ -145,7 +145,7 @@ class hotel extends React.Component {
       </div>
     </div>
           <hr></hr>
-          <h3 id="FeaturesHeadAlpha" class="HotelHead">The AC Hotel has many amenities, including: &#9660;</h3>
+          <h3 id="FeaturesHeadAlpha" class="HotelHead">The AC Hotel has many amenities, including:</h3>
           <div class="infoText" id="FeaturesInfoAlpha">
             <ul>
               <li>Breakfast options (with a fee)</li>

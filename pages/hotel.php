@@ -76,6 +76,22 @@
   }
   .StateButton {
     color: #000000;
+    font-size: 1.5em;
+    border-radius: 15%;
+    margin: .25em;
+    margin-bottom: .15em;
+    padding: .20em;
+  }
+  .StateDropdown {
+    border-radius: 7%;
+    font-size: 1.25em;
+    background-color: #1867A7;
+    color: #FFFFFF;
+  }
+  option {
+    font-size: .75em;
+    background-color: #FFFFFF;
+    color: #000000;
   }
   .HotelHead {
     font-size: 1.75em;
@@ -161,7 +177,7 @@
         <div>
         <h1><b>Please select your state or territory to see information about your hotel</b></h1>
         <div class="information">
-          <select class="StateButton" name="stateName" id="state">
+          <select class="StateButton StateDropdown" name="stateName" id="state">
             <option value="">Your State</option>
             <option value="alabama">Alabama</option> <!--works -->
             <option value="alaska">Alaska</option> <!--works -->
@@ -317,12 +333,12 @@
       <div class="information">
         <h3 id="HarborHead" class="HotelHead">The National Harbor area offers convenient access to the National Harbor, shopping, and dining experiences. &#9660;</h3>
         <div class="infoText" id="HarborInfo">
-          <p>The National Harbor has events going on all the time. Please see their <a href="https://www.nationalharbor.com/events/">
+          <p>The National Harbor has events going on all the time. Please see their <a class="infoLink" href="https://www.nationalharbor.com/events/">
             calendar</a> for the most updated events.</p>
             <ul>
-              <li><a href="https://www.nationalharbor.com/dine/">Dine at the National Harbor</a></li>
-              <li><a href="https://www.nationalharbor.com/play/">Play at the National Harbor</a></li>
-              <li><a href="https://www.nationalharbor.com/shop/">Shop at the National Harbor</a></li>
+              <li><a class="infoLink" href="https://www.nationalharbor.com/dine/">Dine at the National Harbor</a></li>
+              <li><a class="infoLink" href="https://www.nationalharbor.com/play/">Play at the National Harbor</a></li>
+              <li><a class="infoLink" href="https://www.nationalharbor.com/shop/">Shop at the National Harbor</a></li>
             </ul>
         </div>
       </div>
