@@ -48,6 +48,7 @@
   .gaylordImage {
     margin: .5em;
     margin-bottom: .75em;
+    border: .25em solid #000000;
     grid-area: image;
   }
   #floatClear {
@@ -276,7 +277,7 @@
       </iframe>
     </div>
       <div class="gaylordImage">
-        <img src="../images/Gaylord.jpg" width="100%" height="100%" alt="Gaylord"></img>
+        <img src="../images/Westin.jpg" width="100%" height="100%" alt="Gaylord"></img>
     </div>
   </div>
         <hr>
@@ -309,7 +310,7 @@
     </iframe>
   </div>
     <div class="gaylordImage">
-      <img src="../images/Gaylord.jpg" width="100%" height="100%" alt="Gaylord"></img>
+      <img src="../images/AC.JPG" width="100%" height="100%" alt="Gaylord"></img>
   </div>
 </div>
       <hr>

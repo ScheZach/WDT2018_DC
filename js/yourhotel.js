@@ -98,7 +98,7 @@ class hotel extends React.Component {
       </iframe>
     </div>
       <div class="gaylordImage">
-        <img src="../images/Gaylord.jpg" width="100%" height="100%" alt="Gaylord"></img>
+        <img src="../images/Westin.jpg" width="100%" height="100%" alt="Gaylord"></img>
     </div>
   </div>
         <hr></hr>
@@ -141,7 +141,7 @@ class hotel extends React.Component {
         </iframe>
       </div>
         <div class="gaylordImage">
-          <img src="../images/Gaylord.jpg" width="100%" height="100%" alt="Gaylord"></img>
+          <img src="../images/AC.JPG" width="100%" height="100%" alt="Gaylord"></img>
       </div>
     </div>
           <hr></hr>

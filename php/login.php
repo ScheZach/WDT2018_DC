@@ -32,7 +32,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
        if($stmt->execute()) {
          $stmt->store_result();
          if($stmt->num_rows == 1) {
-           echo "MoreRows";
            $stmt->bind_result($userId, $username, $hashed_password);
            if($stmt->fetch()) {
              if($password === $hashed_password) {
