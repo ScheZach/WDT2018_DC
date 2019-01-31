@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="../images/togetherwecreatesm.png">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans|Slabo+27px" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
   <script src="../js/jquery-3.3.1.min.js"></script>
@@ -263,7 +264,7 @@
             <li>Video Games / Game room</li>
             <li>Breakfast (with a fee)</li>
             <li>Barber/Beauty Shop</li>
-            <li>Cash Macine/ATM</li>
+            <li>Cash Machine/ATM</li>
             <li>Daily housekeeping</li>
           </ul>
         </div>
@@ -318,7 +319,7 @@
       <div class="infoText" id="FeaturesInfoAC">
         <ul>
           <li>Breakfast options (with a fee)</li>
-          <li>Sundry/Convenience store</li>
+          <li>Convenience store</li>
           <li>Two restaurants: AC Kitchen (European), AC Lounge (Tapas)</li>
           <li>Daily housekeeping</li>
           <li>Valet dry-cleaning</li>

@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="../images/togetherwecreatesm.png">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans|Slabo+27px" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
   <script src="../js/jquery-3.3.1.min.js"></script>
@@ -28,6 +29,9 @@
       border: .5em ridge #1B325F;
       color: #DDDDDD;
       background-color: #3A89C9;
+    }
+    .brightlink {
+      color: #CCCCCC;
     }
     @media screen and (max-width: 40em) {
       th {
@@ -83,8 +87,8 @@
             include '../php/userQuestion.php';
             echo "</div>";
             echo "<hr><div id='userAdd'>";
-            echo "<h2>Have a question? <a href='../php/addQuestion.php'>Click here</a> to add one.</h2>";
-            echo "<h2>Have an answer? <a href='../php/addAnswer.php'>Click here</a> to add one.</h2>";
+            echo "<h2>Have a question? <a class='brightlink' href='../php/addQuestion.php'>Click here</a> to add one.</h2>";
+            echo "<h2>Have an answer? <a class='brightlink' href='../php/addAnswer.php'>Click here</a> to add one.</h2>";
             echo "</div><hr>";
           }
         ?>

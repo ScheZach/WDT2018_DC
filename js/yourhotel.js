@@ -69,7 +69,7 @@ class hotel extends React.Component {
             <li>Video Games / Game room</li>
             <li>Breakfast (with a fee)</li>
             <li>Barber/Beauty Shop</li>
-            <li>Cash Macine/ATM</li>
+            <li>Cash Machine/ATM</li>
             <li>Daily housekeeping</li>
           </ul>
         </div>
@@ -149,7 +149,7 @@ class hotel extends React.Component {
           <div class="infoText" id="FeaturesInfoAlpha">
             <ul>
               <li>Breakfast options (with a fee)</li>
-              <li>Sundry/Convenience store</li>
+              <li>Convenience store</li>
               <li>Two restaurants: AC Kitchen (European), AC Lounge (Tapas)</li>
               <li>Daily housekeeping</li>
               <li>Valet dry-cleaning</li>
