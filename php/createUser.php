@@ -87,6 +87,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
   <link rel="icon" href="../images/togetherwecreatesm.png">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans|Slabo+27px" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="../css/w3.css">
@@ -107,8 +109,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
   <div class="w3-bar w3-red">
-    <h1 id="header">Welcome to the 2020 NLC at Washington D.C. Informatation Page</h1>
-    <div class="w3-bar">
+    <h1 id="header" class="HeadCenter">Welcome to the 2020 NLC at Washington D.C. Informatation Page</h1>
+    <div class="w3-bar LinkColor">
       <a href="../home.php" class="w3-bar-item w3-button w3-hover-blue">Home</a>
       <a href="login.php" class="w3-bar-item w3-button w3-hover-blue">Log In</a>
     </div>

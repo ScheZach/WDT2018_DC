@@ -8,6 +8,8 @@
   <link rel="icon" href="../images/togetherwecreatesm.png">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans|Slabo+27px" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
   <script src="../js/jquery-3.3.1.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="../css/w3.css">
@@ -52,14 +54,31 @@
     .NLCHead:hover {
       color: #BBBBBB;
     }
+    #video {
+      width: 600px;
+      height: 400px;
+      border: .3em solid #222;
+    }
+    @media screen and (max-width: 40em) {
+      #video {
+        width: 150px;
+        height: 50px;
+      }
+    }
+    @media screen and (max-width: 80em) {
+      #video {
+        width: 100%;
+        height: 300px;
+      }
+    }
   </style>
 </head>
 <body>
-  <div class="w3-bar w3-red">
-    <h1 id="header">Welcome to the 2020 NLC at Washington D.C. Information Website</h1>
+  <div class="w3-bar ribbonBack">
+    <h1 id="header" class="HeadCenter">Welcome to the 2020 NLC at Washington D.C. Information Website</h1>
     <div class="w3-bar LinkColor">
       <a href="../home.php" class="w3-bar-item w3-button w3-hover-blue">Home</a>
-      <a href="event.php" class="w3-bar-item w3-button w3-hover-blue">NLC</a>
+      <a href="event.php" class="w3-bar-item w3-button w3-hover-blue w3-light-blue">NLC</a>
       <a href="transportation.php" class="w3-bar-item w3-button w3-hover-blue">Transportation</a>
       <a href="hotel.php" class="w3-bar-item w3-button w3-hover-blue">Hotel</a>
       <a href="food.php" class="w3-bar-item w3-button w3-hover-blue">Food</a>
@@ -88,7 +107,7 @@
 
       <div id="main" class="gridStyle">
         <div id="location">
-          <iframe id="conMap" width="650" height="450" frameborder="1" style="border: .25em solid #000000"
+          <iframe id="conMap" width="100%" height="450" frameborder="1" style="border: .25em solid #000000"
           src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBmYRVD-e2FKiTxX_zGuKwhLALhT4xfthU&q=Gaylord+National+Resort,Fort+Washington,MD+20745" allowfullscreen>
           </iframe>
           <br>
@@ -139,6 +158,13 @@
           <p>The 2020 NLC schedule has not been released yet.</p>
           <p>Please reference the <a class="infoLink" href="http://www.bpa.org/nlc/postcon" target="_blank">2018 NLC Schedule</a> for an idea of the format.</p>
           </div>
+        
+        <h2 id="promotionalHead" class="NLCHead">NLC Promotional Video &#9660;</h2>
+        <div class="infoText" id="promotional">
+          <p>This is the NLC promotional video.</p>
+          <iframe id="video" src="https://www.youtube.com/embed/9UjpiR7Y6LQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
         </div>
       </div>
       <div id="base" class="gridStyle">

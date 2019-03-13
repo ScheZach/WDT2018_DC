@@ -8,6 +8,8 @@
   <link rel="icon" href="../images/togetherwecreatesm.png">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans|Slabo+27px" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
   <script src="../js/jquery-3.3.1.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="../css/w3.css">
@@ -100,12 +102,12 @@
   </script>
 </head>
 <body>
-  <div class="w3-bar w3-red">
-    <h1 id="header">Welcome to the 2020 NLC at Washington D.C. Information Website</h1>
+  <div class="w3-bar ribbonBack">
+    <h1 id="header" class="HeadCenter">Welcome to the 2020 NLC at Washington D.C. Information Website</h1>
     <div class="w3-bar LinkColor">
       <a href="../home.php" class="w3-bar-item w3-button w3-hover-blue">Home</a>
       <a href="event.php" class="w3-bar-item w3-button w3-hover-blue">NLC</a>
-      <a href="transportation.php" class="w3-bar-item w3-button w3-hover-blue">Transportation</a>
+      <a href="transportation.php" class="w3-bar-item w3-button w3-hover-blue w3-light-blue">Transportation</a>
       <a href="hotel.php" class="w3-bar-item w3-button w3-hover-blue">Hotel</a>
       <a href="food.php" class="w3-bar-item w3-button w3-hover-blue">Food</a>
       <a href="activities.php" class="w3-bar-item w3-button w3-hover-blue">Activities</a>
@@ -161,7 +163,7 @@
               &#8226; <a class="airlineLink infoLink" href="https://www.delta.com/" target="_blank">Delta</a><br>
               &#8226; <a class="airlineLink infoLink" href="https://www.aa.com/homePage.do" target="_blank">American</a><br>
               &#8226; <a class="airlineLink infoLink" href="https://www.united.com/en/us/" target="_blank">United</a></h4>
-          <h4 class="airportInfo">&#8226; Uber, Lyft, and taxi services are all provide at the Ronald Regan National Airport. See these websites for more information<br>
+          <h4 class="airportInfo">&#8226; Uber, Lyft, and taxi services are all provided at the Ronald Regan National Airport. See these websites for more information<br>
           &#8226; <a class="infoLink" href="https://www.uber.com/airports/dca/" target="_blank">Uber</a><br>
           &#8226; <a class="infoLink" href="https://www.lyft.com/airports/dca" target="_blank">Lyft</a><br>
           &#8226; <a class="infoLink" href="http://www.flyreagan.com/dca/taxi-service" target="_blank">Taxi</a></h4>

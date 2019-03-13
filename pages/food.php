@@ -8,6 +8,8 @@
   <link rel="icon" href="../images/togetherwecreatesm.png">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans|Slabo+27px" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
   <script src="../js/jquery-3.3.1.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="../css/w3.css">
@@ -126,14 +128,14 @@
   </script>
 </head>
 <body>
-  <div class="w3-bar w3-red">
-  <h1 id="header">Welcome to the 2020 NLC at Washington D.C. Information Website</h1>
+  <div class="w3-bar ribbonBack">
+  <h1 id="header" class="HeadCenter">Welcome to the 2020 NLC at Washington D.C. Information Website</h1>
   <div class="w3-bar LinkColor">
     <a href="../home.php" class="w3-bar-item w3-button w3-hover-blue">Home</a>
     <a href="event.php" class="w3-bar-item w3-button w3-hover-blue">NLC</a>
     <a href="transportation.php" class="w3-bar-item w3-button w3-hover-blue">Transportation</a>
     <a href="hotel.php" class="w3-bar-item w3-button w3-hover-blue">Hotel</a>
-    <a href="food.php" class="w3-bar-item w3-button w3-hover-blue">Food</a>
+    <a href="food.php" class="w3-bar-item w3-button w3-hover-blue w3-light-blue">Food</a>
     <a href="activities.php" class="w3-bar-item w3-button w3-hover-blue">Activities</a>
     <a href="QandA.php" class="w3-bar-item w3-button w3-hover-blue">Q&A</a>
     <div class="w3-dropdown-hover w3-right">

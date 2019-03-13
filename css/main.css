@@ -16,6 +16,7 @@ more informatation about this go to learn css on w3*/
   grid-area: sidebar;
   background-color: #9cc4e4;
   color: #444444;
+  font-family: 'Raleway', sans-serif;
 /*  position: fixed; (just an idea,probably needes more formatting)*/
 }
 
@@ -24,6 +25,7 @@ more informatation about this go to learn css on w3*/
   background-color: #e9f2f9;
   color: #444444;
   margin-left: 10px;
+  font-family: 'Raleway', sans-serif;
 }
 
 #base {
@@ -40,6 +42,7 @@ more informatation about this go to learn css on w3*/
   background-color: #3a89c9;
   color: #FFFFFF;
   font-size: 1.05em;
+  border-radius: .5em;
 }
 
 .LinkColor {
@@ -69,12 +72,13 @@ table, th, td {
   border: 3px solid black;
   border-collapse: collapse;
   text-align: center;
+  font-size: 1em;
 }
 
 th {
   padding: .25em;
   color: #FFFFFF;
-  background-color: #FF0000;
+  background-color: #FB0000;
 }
 
 td {
@@ -122,4 +126,13 @@ td:hover {
 }
 .infoLink:hover {
   color: #e9f2f9;
+}
+.HeadCenter {
+  text-align: center;
+  font-size: 2.6em;
+}
+.ribbonBack {
+  background-color: #FC0000;
+  color: #FFFFFF;
+  font-family: 'Merriweather', serif;
 }

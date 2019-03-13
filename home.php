@@ -9,6 +9,8 @@
   <link rel="icon" href="images/togetherwecreatesm.png">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans|Slabo+27px" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/w3.css">
@@ -43,10 +45,10 @@
   </style>
 </head>
 <body>
-  <div class="w3-bar w3-red">
-    <h1 id="header">Welcome to the 2020 NLC at Washington D.C. Information Website</h1>
+  <div class="w3-bar ribbonBack">
+    <h1 id="header" class="HeadCenter">Welcome to the 2020 NLC at Washington D.C. Information Website</h1>
     <div class="w3-bar LinkColor">
-      <a href="home.php" class="w3-bar-item w3-button w3-hover-blue">Home</a>
+      <a href="home.php" class="w3-bar-item w3-button w3-hover-blue w3-light-blue">Home</a>
       <a href="pages/event.php" class="w3-bar-item w3-button w3-hover-blue">NLC</a>
       <a href="pages/transportation.php" class="w3-bar-item w3-button w3-hover-blue">Transportation</a>
       <a href="pages/hotel.php" class="w3-bar-item w3-button w3-hover-blue">Hotel</a>
@@ -104,7 +106,7 @@
             echo "<h2 class='mainInfo'>Hello ". $_SESSION["username"] . "</h2>";
           }
           if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-            echo "<h2 class='mainInfo'>Feel free to log in or create an account to gain access to all of our features<br>";
+            echo "<h2 class='mainInfo'>Log in or create an account to gain access to all of our features<br>";
             echo "<a href='php/login.php' class='w3-button userFeatures'>Log In</a> <a href='php/createUser.php' class='w3-button userFeatures'>Create User</a></h2>";
           }
         ?>

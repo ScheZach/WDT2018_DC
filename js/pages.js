@@ -11,4 +11,8 @@ $(document).ready(function() {
   $("#dressCodeHead").click(function() {
     $("#dressCode").slideToggle();
   });
+  $("#promotional").hide();
+  $("#promotionalHead").click(function() {
+    $("#promotional").slideToggle();
+  })
 });
