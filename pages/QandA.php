@@ -60,9 +60,9 @@
     <div class="w3-dropdown-hover w3-right">
       <button class="w3-button">User Login &#9660;</button>
       <div class="w3-dropdown-content w3-bar-block w3-border">
-        <a href="../php/login.php" class="w3-bar-item w3-button">Log In</a>
-        <a href="../php/createUser.php" class="w3-bar-item w3-button">Create User</a>
-        <a href="../php/logout.php" class="w3-bar-item w3-button">Log Out</a>
+        <a href="../php/login.php" class="w3-bar-item w3-button UserLink">Log In</a>
+        <a href="../php/createUser.php" class="w3-bar-item w3-button UserLink">Create User</a>
+        <a href="../php/logout.php" class="w3-bar-item w3-button UserLink">Log Out</a>
       </div>
 </div>
     </div>

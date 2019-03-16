@@ -50,7 +50,7 @@ more informatation about this go to learn css on w3*/
 }
 
 body {
-  background-color: #CCCCCC;
+  background-color: #4d4d4d;
 }
 
 .w3-container {
@@ -135,4 +135,10 @@ td:hover {
   background-color: #FC0000;
   color: #FFFFFF;
   font-family: 'Merriweather', serif;
+}
+.UserLink {
+  background-color: #cceeff;
+}
+.UserLinkHover:hover {
+  background-color: #aaccdd;
 }

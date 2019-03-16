@@ -56,11 +56,11 @@
       <a href="pages/activities.php" class="w3-bar-item w3-button w3-hover-blue">Activities</a>
       <a href="pages/QandA.php" class="w3-bar-item w3-button w3-hover-blue">Q&A</a>
       <div class="w3-dropdown-hover w3-right">
-        <button class="w3-button">User Login &#9660;</button>
+        <button class="w3-button UserLinkHover">User Login &#9660;</button>
         <div class="w3-dropdown-content w3-bar-block w3-border">
-          <a href="php/login.php" class="w3-bar-item w3-button">Log In</a>
-          <a href="php/createUser.php" class="w3-bar-item w3-button">Create User</a>
-          <a href="php/logout.php" class="w3-bar-item w3-button">Log Out</a>
+          <a href="php/login.php" class="w3-bar-item w3-button UserLink">Log In</a>
+          <a href="php/createUser.php" class="w3-bar-item w3-button UserLink">Create User</a>
+          <a href="php/logout.php" class="w3-bar-item w3-button UserLink">Log Out</a>
         </div>
 </div>
     </div>
@@ -68,7 +68,7 @@
   <div class="w3-container">
     <div class="grid-container">
       <div id="sidebar" class="gridStyle">
-        <h3>The 2020 NLC will be held May 6-10.</h3><br>
+        <h3>The 2020 NLC will be held <b>May 6-10</b>.</h3><br>
         <ul>
           <li class="link"><a href="http://www.bpa.org/" target="_blank">BPA.org</a></li>
           <li class="link"><a href="https://www.nationalharbor.com/" target="_blank">National Harbor</a></li>

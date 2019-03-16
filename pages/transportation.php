@@ -115,9 +115,9 @@
       <div class="w3-dropdown-hover w3-right">
         <button class="w3-button">User Login &#9660;</button>
         <div class="w3-dropdown-content w3-bar-block w3-border">
-          <a href="../php/login.php" class="w3-bar-item w3-button">Log In</a>
-          <a href="../php/createUser.php" class="w3-bar-item w3-button">Create User</a>
-          <a href="../php/logout.php" class="w3-bar-item w3-button">Log Out</a>
+          <a href="../php/login.php" class="w3-bar-item w3-button UserLink">Log In</a>
+          <a href="../php/createUser.php" class="w3-bar-item w3-button UserLink">Create User</a>
+          <a href="../php/logout.php" class="w3-bar-item w3-button UserLink">Log Out</a>
         </div>
 </div>
     </div>
@@ -156,7 +156,7 @@
         <div>
           <br>
           <div class="information">
-          <h2 id="airportHead" class="InfoHead">Airport Services &#9660;</h2>
+          <h2 id="airportHead" class="InfoHead">Airport Services: &#9660;</h2>
           <h4 class="airportInfo">&#8226; The best airport to fly into is the Ronald Regan Washington National Airport (DCA)</h4>
           <h4 id="airlines" class="airportInfo">&#8227; Some posible airlines are:<br>
               &#8226; <a class="airlineLink infoLink" href="https://www.southwest.com/" target="_blank">Southwest</a><br>
@@ -167,10 +167,10 @@
           &#8226; <a class="infoLink" href="https://www.uber.com/airports/dca/" target="_blank">Uber</a><br>
           &#8226; <a class="infoLink" href="https://www.lyft.com/airports/dca" target="_blank">Lyft</a><br>
           &#8226; <a class="infoLink" href="http://www.flyreagan.com/dca/taxi-service" target="_blank">Taxi</a></h4>
-          <h4 class="airportInfo">&#8226; Super Shuttles are avilible for pick up at the Ronald Regan National Airport.
+          <h4 class="airportInfo">&#8226; Super Shuttles are available for pick up at the Ronald Regan National Airport.
              See Super Shuttle's website for more information: <a class="infoLink" href="https://www.supershuttle.com/locations/washington-dca-iad/" target="_blank">Super Shuttle</a></h4>
           <hr class="airportInfo">
-          <h2 id="UberHead" class="InfoHead">Uber, Lyft, and Taxi Services &#9660;</h2>
+          <h2 id="UberHead" class="InfoHead">Uber, Lyft, and Taxi Services: &#9660;</h2>
           <h4 class="UberInfo">&#8226; Uber, Lyft, and Taxi Services are provided. See RideGuru for more information on approximate prices:
            <a class="infoLink" href="https://ride.guru/" target="_blank">RideGuru</a></h4>
           <h4 class="UberInfo">&#8226; Here are some example pricing for a ride from Washington D.C. to Fort Washington, Maryland (17.6 mi, 30 min) provided by RideGuru.</h4>
@@ -194,7 +194,7 @@
           </table>
           <br class="CancelFloat UberInfo">
           <hr class="UberInfo">
-          <h2 id="MetroHead" class="InfoHead">Metro Services &#9660;</h2>
+          <h2 id="MetroHead" class="InfoHead">Metro Services: &#9660;</h2>
           <h4 class="MetroInfo">&#8226; The metro services the area in and around Washington DC.</h4>
           <h4 class="MetroInfo">&#8226; The metro does require the use of SmarTrip card to pay for trips. These cards can be purchased or recharged at any metro station.</h4>
           <h4 class="MetroInfo">&#8226; Pricing depends on the length of the trip and the time of day, but it is typically no more than $6.

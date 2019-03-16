@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Event: Washington DC Nationals Guide</title>
+  <title>NLC: Washington DC Nationals Guide</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -35,7 +35,8 @@
     }
     .infoText {
       margin: .75em;
-      border: .5em solid #9CC4E4;
+      /*border: .5em solid #9CC4E4;*/
+      border: .5em solid #ff0000;
       border: collapse;
       padding: .5em;
       background-color: #1867A7;
@@ -87,9 +88,9 @@
       <div class="w3-dropdown-hover w3-right">
         <button class="w3-button">User Login &#9660;</button>
         <div class="w3-dropdown-content w3-bar-block w3-border">
-          <a href="../php/login.php" class="w3-bar-item w3-button">Log In</a>
-          <a href="../php/createUser.php" class="w3-bar-item w3-button">Create User</a>
-          <a href="../php/logout.php" class="w3-bar-item w3-button">Log Out</a>
+          <a href="../php/login.php" class="w3-bar-item w3-button UserLink">Log In</a>
+          <a href="../php/createUser.php" class="w3-bar-item w3-button UserLink">Create User</a>
+          <a href="../php/logout.php" class="w3-bar-item w3-button UserLink">Log Out</a>
         </div>
 </div>
     </div>
@@ -117,7 +118,7 @@
 
 
         <div class="information">
-        <h2 id="dressCodeHead" class="NLCHead">Dress code &#9660;</h2>
+        <h2 id="dressCodeHead" class="NLCHead">Dress code: &#9660;</h2>
         <div class="infoText" id="dressCode">
           <h3>Professional Dress Code:</h3>
           <p>Women Options:</p>
@@ -153,13 +154,13 @@
           <a class="infoLink" href="http://www.bpa.org/nlc/dresscode" target="_blank">Official Dress Code (bpa.org)</a>
         </div>
 
-        <h2 id="eventHead" class="NLCHead">NLC Schedule &#9660;</h2>
+        <h2 id="eventHead" class="NLCHead">NLC Schedule:&#9660;</h2>
         <div class="infoText" id="event">
           <p>The 2020 NLC schedule has not been released yet.</p>
-          <p>Please reference the <a class="infoLink" href="http://www.bpa.org/nlc/postcon" target="_blank">2018 NLC Schedule</a> for an idea of the format.</p>
+          <p>Please reference the <a class="infoLink" href="https://bpa.org/nlc/guide/" target="_blank">2019 NLC Preview Guide</a> for an idea of the format.</p>
           </div>
         
-        <h2 id="promotionalHead" class="NLCHead">NLC Promotional Video &#9660;</h2>
+        <h2 id="promotionalHead" class="NLCHead">NLC Promotional Video: &#9660;</h2>
         <div class="infoText" id="promotional">
           <p>This is the NLC promotional video.</p>
           <iframe id="video" src="https://www.youtube.com/embed/9UjpiR7Y6LQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -92,9 +92,9 @@
     <div class="w3-dropdown-hover w3-right">
       <button class="w3-button">User Login &#9660;</button>
       <div class="w3-dropdown-content w3-bar-block w3-border">
-        <a href="../php/login.php" class="w3-bar-item w3-button">Log In</a>
-        <a href="../php/createUser.php" class="w3-bar-item w3-button">Create User</a>
-        <a href="../php/logout.php" class="w3-bar-item w3-button">Log Out</a>
+        <a href="../php/login.php" class="w3-bar-item w3-button UserLink">Log In</a>
+        <a href="../php/createUser.php" class="w3-bar-item w3-button UserLink">Create User</a>
+        <a href="../php/logout.php" class="w3-bar-item w3-button UserLink">Log Out</a>
       </div>
 </div>
     </div>
@@ -147,12 +147,12 @@
           <h4 class="ActiveText ActiveHead"><b>Smithsonian Museums</b></h4>
           <table>
             <tr><th>Important Information</th></tr>
-            <tr><td>Smithsonian Museums on the National Mall are the American Indian Museum, Air and Space Museum, Hirshhorn Museum, Arts and Industry Meseum,
+            <tr><td>Smithsonian Museums on the National Mall includes the American Indian Museum, Air and Space Museum, Hirshhorn Museum, Arts and Industry Meseum,
              African Art Meseum, Sackler Gallery, Freer Gallery, Natural History Museum, American History Museum, African American History and Culture Mesuem, and
            the Smithsonian Castle</td></tr>
             <tr><td>The Smithsonian Museums on the National Mall are open every day from 10 a.m. to 5:30 p.m.</td></tr>
-            <tr><td>Small purses, closed food and beverages, and cameras are permitted.</td></tr>
-            <tr><td>The Smithsonian is free.</td></tr>
+            <tr><td>Small purses, closed food and beverages, and cameras are permitted</td></tr>
+            <tr><td>The Smithsonian is free</td></tr>
           </table>
           </div>
           <div class="pic">
