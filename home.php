@@ -42,11 +42,14 @@
         font-size: 1.5em;
       }
     }
+    #test {
+      align: right;
+    }
   </style>
 </head>
 <body>
   <div class="w3-bar ribbonBack">
-    <h1 id="header" class="HeadCenter">Welcome to the 2020 NLC at Washington D.C. Information Website</h1>
+    <h1 id="header" class="HeadCenter">Welcome to the 2020 NLC in Washington D.C.</h1>
     <div class="w3-bar LinkColor">
       <a href="home.php" class="w3-bar-item w3-button w3-hover-blue w3-light-blue">Home</a>
       <a href="pages/event.php" class="w3-bar-item w3-button w3-hover-blue">NLC</a>
@@ -65,6 +68,9 @@
 </div>
     </div>
   </div>
+
+
+
   <div class="w3-container">
     <div class="grid-container">
       <div id="sidebar" class="gridStyle">
@@ -124,5 +130,18 @@
       </div>
     </div>
   </div>
+
+  <footer id="footer" style="background-color: #9cc4e4">
+    <span class="inner">
+        <div align="left">
+          <p>Copyright &copy; Business Professionals of America. All rights reserved.</p>
+        </div>
+				<div align="right" id="test">
+          <a class="w3-button userFeatures" href="https://www.facebook.com/businessprofessionalsofamerica" target="_blank"><img src="images/logos/facebook/white/PNG/30pxflogo-HexRBG-Wht-58.png" alt="Go to BPA National Facebook"</a>
+          <a class="w3-button userFeatures" href="https://www.instagram.com/bpanational/" target="_blank"><img src="images/logos/30pxinstagram.png" alt="Go to BPA National Instagram"></a>
+          <a class="w3-button userFeatures" href="https://twitter.com/National_BPA" target="_blank"><img src="images\logos\twitter\Twitter Social Icons\Twitter Social Icons\Twitter_SocialIcon_Square\30pxTwitter_Social_Icon_Square_White.png" alt="Go to BPA National Twitter"></a>
+				</div>
+    </span>
+	</footer>
 </body>
 </html>
