@@ -91,7 +91,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     <?php
       include 'QuestionTable.php';
     ?>
-  <div id="login">
+  <div id="login" class="formColor">
     <h2>Please enter these fields to create your answer.</h2>
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
       <label>Answer: </label>

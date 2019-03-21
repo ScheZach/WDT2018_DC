@@ -115,7 +115,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
       <a href="login.php" class="w3-bar-item w3-button w3-hover-blue">Log In</a>
     </div>
   </div>
-  <div id="login">
+  <div id="login" class="formColor">
     <h2>Please enter these fields to create your account?</h2>
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
       <label>Username: </label>
@@ -129,7 +129,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
       <span><?php echo $confirm_password_err; ?></span><br>
       <input type="submit" class="btn btn-primary w3-btn w3-red w3-circle" value="Create Account">
       <input type="reset" class="btn btn-default w3-btn w3-red w3-circle" value="Reset">
-      <p>Have an account? <a href="login.php">Click here</a> to log in.</p>
+      <p>Have an account? <a style="color: #0077b3" href="login.php">Click here</a> to log in.</p>
     </form>
   </div>
 </body>

@@ -71,7 +71,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
       <a href="../pages/QandA.php" class="w3-bar-item w3-button w3-hover-blue">Q&A</a>
     </div>
   </div>
-  <div id="login">
+  <div id="login" class="formColor">
     <h2>Please enter these fields to create your question.</h2>
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
       <label>Question Id: </label>

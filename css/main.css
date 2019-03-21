@@ -142,3 +142,16 @@ td:hover {
 .UserLinkHover:hover {
   background-color: #aaccdd;
 }
+.socialLink {
+  text-align: center;
+  margin: .4em;
+}
+.formColor {
+  background-color: #e9f2f9;
+}
+a {
+  color: #DDDDDD;
+}
+a:hover {
+  color: #CCCCCC;
+}

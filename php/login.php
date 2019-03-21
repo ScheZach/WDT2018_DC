@@ -95,7 +95,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
       <a href="createUser.php" class="w3-bar-item w3-button w3-hover-blue">Create User</a>
     </div>
   </div>
-  <div id="login">
+  <div id="login" class="formColor">
     <h2>Please enter your username and password to log in</h2>
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
       <label>Username: </label>
@@ -105,7 +105,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
       <input type="text" name="password" value="<?php echo $password; ?>"><br>
       <span><?php echo $password_err; ?></span><br>
       <input type="submit" class="btn btn-primary w3-btn w3-red w3-circle" value="Login">
-      <p>Need an account? <a href="createUser.php">Click here</a> to get one.</p>
+      <p>Need an account? <a style="color: #0077b3" href="createUser.php">Click here</a> to get one.</p>
     </form>
   </div>
 </body>

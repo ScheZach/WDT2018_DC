@@ -110,13 +110,19 @@
         <div>
             <p>
               Connect With National BPA:<br>
-              <a class="w3-button userFeatures" href="https://www.facebook.com/businessprofessionalsofamerica" target="_blank" style="color:darkblue">Facebook</a>
-              <a class="w3-button userFeatures" href="https://www.instagram.com/bpanational/" target="_blank" style="color:darkblue">Instagram</a>
-              <a class="w3-button userFeatures" href="https://twitter.com/National_BPA" target="_blank" style="color:darkblue">Twitter</a>
+              <a class="socialLink" href="https://www.facebook.com/businessprofessionalsofamerica" target="_blank"><img src="../images/logos/flogo_RGB_HEX-144.png" alt="Facebook"></a>
+              <a class="socialLink" href="https://www.instagram.com/bpanational/" target="_blank"><img src="../images/logos/glyph-logo_May2016.png" alt="Instagram"></a>
+              <a class="socialLink" href="https://twitter.com/National_BPA" target="_blank"><img src="../images/logos/Twitter_Social_Icon_Rounded_Square_Color.png" alt="Twitter"></a>
             </p>
         </div>
       </div>
     </div>
 </div>
+<footer id="footer" style="background-color: #9cc4e4; color: #FFFFFF">
+        <div align="left">
+        <br>
+          <p id="copyright">Copyright &copy; Business Professionals of America. All rights reserved.</p>
+        </div>
+	</footer>
 </body>
 </html>

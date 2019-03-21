@@ -33,7 +33,7 @@
       width: 100%;
       height: auto;
     }
-    img {
+    .carouselImg {
       width: 100%;
       height: auto;
     }
@@ -91,13 +91,13 @@
   </ul>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/homepage/editbpalogo.png" alt="Los Angeles">
+      <img class="carouselImg" src="images/homepage/editbpalogo.png" alt="Los Angeles">
     </div>
     <div class="carousel-item">
-      <img src="images/homepage/togetherwecreatelarge.jpg" alt="Chicago">
+      <img class="carouselImg" src="images/homepage/togetherwecreatelarge.jpg" alt="Chicago">
     </div>
     <div class="carousel-item">
-      <img src="images/homepage/2018conference.jpg" alt="New York">
+      <img class="carouselImg" src="images/homepage/2018conference.jpg" alt="New York">
     </div>
   </div>
   <a class="carousel-control-prev" href="#demo" data-slide="prev">
@@ -122,9 +122,9 @@
         <div>
             <p>
               Connect With National BPA:<br>
-              <a class="w3-button userFeatures" href="https://www.facebook.com/businessprofessionalsofamerica" target="_blank">Facebook</a>
-              <a class="w3-button userFeatures" href="https://www.instagram.com/bpanational/" target="_blank">Instagram</a>
-              <a class="w3-button userFeatures" href="https://twitter.com/National_BPA" target="_blank">Twitter</a>
+              <a class="socialLink" href="https://www.facebook.com/businessprofessionalsofamerica" target="_blank"><img src="images/logos/flogo_RGB_HEX-144.png" alt="Facebook"></a>
+              <a class="socialLink" href="https://www.instagram.com/bpanational/" target="_blank"><img src="images/logos/glyph-logo_May2016.png" alt="Instagram"></a>
+              <a class="socialLink" href="https://twitter.com/National_BPA" target="_blank"><img src="images/logos/Twitter_Social_Icon_Rounded_Square_Color.png" alt="Twitter"></a>
             </p>
         </div>
       </div>
@@ -132,16 +132,10 @@
   </div>
 
   <footer id="footer" style="background-color: #9cc4e4">
-    <span class="inner">
         <div align="left">
+        <br>
           <p>Copyright &copy; Business Professionals of America. All rights reserved.</p>
         </div>
-				<div align="right" id="test">
-          <a class="w3-button userFeatures" href="https://www.facebook.com/businessprofessionalsofamerica" target="_blank"><img src="images/logos/facebook/white/PNG/30pxflogo-HexRBG-Wht-58.png" alt="Go to BPA National Facebook"</a>
-          <a class="w3-button userFeatures" href="https://www.instagram.com/bpanational/" target="_blank"><img src="images/logos/30pxinstagram.png" alt="Go to BPA National Instagram"></a>
-          <a class="w3-button userFeatures" href="https://twitter.com/National_BPA" target="_blank"><img src="images\logos\twitter\Twitter Social Icons\Twitter Social Icons\Twitter_SocialIcon_Square\30pxTwitter_Social_Icon_Square_White.png" alt="Go to BPA National Twitter"></a>
-				</div>
-    </span>
 	</footer>
 </body>
 </html>
